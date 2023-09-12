@@ -1,0 +1,155 @@
+$date
+  Sun Nov 05 20:02:13 2017
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 16 ! x[15:0] $end
+$var reg 32 " xtend[31:0] $end
+$scope module sign_extend_u $end
+$var reg 16 # a[15:0] $end
+$var reg 32 $ a_extend[31:0] $end
+$scope module (0) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (2) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (4) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (5) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (6) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (7) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (8) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (9) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (10) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (11) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (12) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (13) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (14) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (15) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (16) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (17) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (18) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (19) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (20) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (21) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (22) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (23) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (24) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (25) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (26) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (27) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (28) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (29) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (30) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$scope module (31) $end
+$scope module B1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000111111111111 !
+b00000000000000000000111111111111 "
+b0000111111111111 #
+b00000000000000000000111111111111 $
+#1000000
+b1111111111111111 !
+b11111111111111111111111111111111 "
+b1111111111111111 #
+b11111111111111111111111111111111 $
+#2000000

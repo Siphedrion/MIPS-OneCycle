@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.84 (w)1999-2017 BSI
+[*] Mon Nov 06 01:07:40 2017
+[*]
+[dumpfile] "C:\Users\Geo\Dropbox\Documents\Code\mips_one_cycle\alu\result.vcd"
+[dumpfile_mtime] "Mon Nov 06 01:02:23 2017"
+[dumpfile_size] 89689
+[savefile] "C:\Users\Geo\Dropbox\Documents\Code\mips_one_cycle\alu\result.gtkw"
+[timestart] 0
+[size] 1145 600
+[pos] -1 -1
+*-20.725760 780000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] alu32.alu_0.
+[sst_width] 197
+[signals_width] 204
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+[color] 6
+opcode[3:0]
+@420
+[color] 2
+oper_a[31:0]
+[color] 3
+oper_b[31:0]
+result[31:0]
+@23
+result[31:0]
+@800022
+[color] 1
+status[3:0]
+@28
++{cout} (0)status[3:0]
++{overflow} (1)status[3:0]
++{sign} (2)status[3:0]
++{zero} (3)status[3:0]
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

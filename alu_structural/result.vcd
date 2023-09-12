@@ -1,0 +1,7402 @@
+$date
+  Sat Nov 11 00:26:20 2017
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 32 ! oper_a[31:0] $end
+$var reg 32 " oper_b[31:0] $end
+$var reg 32 # result[31:0] $end
+$var reg 4 $ opcode[3:0] $end
+$var reg 4 % status[3:0] $end
+$scope module alu32 $end
+$var reg 32 & a[31:0] $end
+$var reg 32 ' b[31:0] $end
+$var reg 4 ( opcode[3:0] $end
+$var reg 32 ) result[31:0] $end
+$var reg 4 * status[3:0] $end
+$var reg 4 + status_inner[3:0] $end
+$var reg 32 , carry[31:0] $end
+$var reg 32 - result_inner[31:0] $end
+$scope module alu_0 $end
+$var reg 1 . a $end
+$var reg 1 / b $end
+$var reg 1 0 set $end
+$var reg 1 1 cin $end
+$var reg 4 2 opcode[3:0] $end
+$var reg 1 3 result $end
+$var reg 1 4 cout $end
+$var reg 1 5 not_a $end
+$var reg 1 6 not_b $end
+$var reg 1 7 mux_a $end
+$var reg 1 8 mux_b $end
+$var reg 1 9 or_out $end
+$var reg 1 : and_out $end
+$var reg 1 ; adder_out $end
+$var reg 4 < data_in[3:0] $end
+$var reg 2 = mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 > a $end
+$var reg 1 ? b $end
+$var reg 1 @ sel $end
+$var reg 1 A f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 B a $end
+$var reg 1 C b $end
+$var reg 1 D sel $end
+$var reg 1 E f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 F x $end
+$var reg 1 G y $end
+$var reg 1 H cin $end
+$var reg 1 I cout $end
+$var reg 1 J sum $end
+$var reg 1 K sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 L data_in[3:0] $end
+$var reg 2 M sel[1:0] $end
+$var reg 1 N f $end
+$var reg 7 O internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 P a $end
+$var reg 1 Q b $end
+$var reg 1 R sel $end
+$var reg 1 S f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 T a $end
+$var reg 1 U b $end
+$var reg 1 V sel $end
+$var reg 1 W f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 X a $end
+$var reg 1 Y b $end
+$var reg 1 Z sel $end
+$var reg 1 [ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module alu_i $end
+$var reg 1 \ a $end
+$var reg 1 ] b $end
+$var reg 1 ^ set $end
+$var reg 1 _ cin $end
+$var reg 4 ` opcode[3:0] $end
+$var reg 1 a result $end
+$var reg 1 b cout $end
+$var reg 1 c not_a $end
+$var reg 1 d not_b $end
+$var reg 1 e mux_a $end
+$var reg 1 f mux_b $end
+$var reg 1 g or_out $end
+$var reg 1 h and_out $end
+$var reg 1 i adder_out $end
+$var reg 4 j data_in[3:0] $end
+$var reg 2 k mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 l a $end
+$var reg 1 m b $end
+$var reg 1 n sel $end
+$var reg 1 o f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 p a $end
+$var reg 1 q b $end
+$var reg 1 r sel $end
+$var reg 1 s f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 t x $end
+$var reg 1 u y $end
+$var reg 1 v cin $end
+$var reg 1 w cout $end
+$var reg 1 x sum $end
+$var reg 1 y sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 z data_in[3:0] $end
+$var reg 2 { sel[1:0] $end
+$var reg 1 | f $end
+$var reg 7 } internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 !" a $end
+$var reg 1 "" b $end
+$var reg 1 #" sel $end
+$var reg 1 $" f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 %" a $end
+$var reg 1 &" b $end
+$var reg 1 '" sel $end
+$var reg 1 (" f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 )" a $end
+$var reg 1 *" b $end
+$var reg 1 +" sel $end
+$var reg 1 ," f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (2) $end
+$scope module alu_i $end
+$var reg 1 -" a $end
+$var reg 1 ." b $end
+$var reg 1 /" set $end
+$var reg 1 0" cin $end
+$var reg 4 1" opcode[3:0] $end
+$var reg 1 2" result $end
+$var reg 1 3" cout $end
+$var reg 1 4" not_a $end
+$var reg 1 5" not_b $end
+$var reg 1 6" mux_a $end
+$var reg 1 7" mux_b $end
+$var reg 1 8" or_out $end
+$var reg 1 9" and_out $end
+$var reg 1 :" adder_out $end
+$var reg 4 ;" data_in[3:0] $end
+$var reg 2 <" mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 =" a $end
+$var reg 1 >" b $end
+$var reg 1 ?" sel $end
+$var reg 1 @" f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 A" a $end
+$var reg 1 B" b $end
+$var reg 1 C" sel $end
+$var reg 1 D" f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 E" x $end
+$var reg 1 F" y $end
+$var reg 1 G" cin $end
+$var reg 1 H" cout $end
+$var reg 1 I" sum $end
+$var reg 1 J" sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 K" data_in[3:0] $end
+$var reg 2 L" sel[1:0] $end
+$var reg 1 M" f $end
+$var reg 7 N" internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 O" a $end
+$var reg 1 P" b $end
+$var reg 1 Q" sel $end
+$var reg 1 R" f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 S" a $end
+$var reg 1 T" b $end
+$var reg 1 U" sel $end
+$var reg 1 V" f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 W" a $end
+$var reg 1 X" b $end
+$var reg 1 Y" sel $end
+$var reg 1 Z" f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$scope module alu_i $end
+$var reg 1 [" a $end
+$var reg 1 \" b $end
+$var reg 1 ]" set $end
+$var reg 1 ^" cin $end
+$var reg 4 _" opcode[3:0] $end
+$var reg 1 `" result $end
+$var reg 1 a" cout $end
+$var reg 1 b" not_a $end
+$var reg 1 c" not_b $end
+$var reg 1 d" mux_a $end
+$var reg 1 e" mux_b $end
+$var reg 1 f" or_out $end
+$var reg 1 g" and_out $end
+$var reg 1 h" adder_out $end
+$var reg 4 i" data_in[3:0] $end
+$var reg 2 j" mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 k" a $end
+$var reg 1 l" b $end
+$var reg 1 m" sel $end
+$var reg 1 n" f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 o" a $end
+$var reg 1 p" b $end
+$var reg 1 q" sel $end
+$var reg 1 r" f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 s" x $end
+$var reg 1 t" y $end
+$var reg 1 u" cin $end
+$var reg 1 v" cout $end
+$var reg 1 w" sum $end
+$var reg 1 x" sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 y" data_in[3:0] $end
+$var reg 2 z" sel[1:0] $end
+$var reg 1 {" f $end
+$var reg 7 |" internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 }" a $end
+$var reg 1 !# b $end
+$var reg 1 "# sel $end
+$var reg 1 ## f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 $# a $end
+$var reg 1 %# b $end
+$var reg 1 &# sel $end
+$var reg 1 '# f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 (# a $end
+$var reg 1 )# b $end
+$var reg 1 *# sel $end
+$var reg 1 +# f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (4) $end
+$scope module alu_i $end
+$var reg 1 ,# a $end
+$var reg 1 -# b $end
+$var reg 1 .# set $end
+$var reg 1 /# cin $end
+$var reg 4 0# opcode[3:0] $end
+$var reg 1 1# result $end
+$var reg 1 2# cout $end
+$var reg 1 3# not_a $end
+$var reg 1 4# not_b $end
+$var reg 1 5# mux_a $end
+$var reg 1 6# mux_b $end
+$var reg 1 7# or_out $end
+$var reg 1 8# and_out $end
+$var reg 1 9# adder_out $end
+$var reg 4 :# data_in[3:0] $end
+$var reg 2 ;# mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 <# a $end
+$var reg 1 =# b $end
+$var reg 1 ># sel $end
+$var reg 1 ?# f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 @# a $end
+$var reg 1 A# b $end
+$var reg 1 B# sel $end
+$var reg 1 C# f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 D# x $end
+$var reg 1 E# y $end
+$var reg 1 F# cin $end
+$var reg 1 G# cout $end
+$var reg 1 H# sum $end
+$var reg 1 I# sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 J# data_in[3:0] $end
+$var reg 2 K# sel[1:0] $end
+$var reg 1 L# f $end
+$var reg 7 M# internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 N# a $end
+$var reg 1 O# b $end
+$var reg 1 P# sel $end
+$var reg 1 Q# f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 R# a $end
+$var reg 1 S# b $end
+$var reg 1 T# sel $end
+$var reg 1 U# f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 V# a $end
+$var reg 1 W# b $end
+$var reg 1 X# sel $end
+$var reg 1 Y# f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (5) $end
+$scope module alu_i $end
+$var reg 1 Z# a $end
+$var reg 1 [# b $end
+$var reg 1 \# set $end
+$var reg 1 ]# cin $end
+$var reg 4 ^# opcode[3:0] $end
+$var reg 1 _# result $end
+$var reg 1 `# cout $end
+$var reg 1 a# not_a $end
+$var reg 1 b# not_b $end
+$var reg 1 c# mux_a $end
+$var reg 1 d# mux_b $end
+$var reg 1 e# or_out $end
+$var reg 1 f# and_out $end
+$var reg 1 g# adder_out $end
+$var reg 4 h# data_in[3:0] $end
+$var reg 2 i# mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 j# a $end
+$var reg 1 k# b $end
+$var reg 1 l# sel $end
+$var reg 1 m# f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 n# a $end
+$var reg 1 o# b $end
+$var reg 1 p# sel $end
+$var reg 1 q# f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 r# x $end
+$var reg 1 s# y $end
+$var reg 1 t# cin $end
+$var reg 1 u# cout $end
+$var reg 1 v# sum $end
+$var reg 1 w# sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 x# data_in[3:0] $end
+$var reg 2 y# sel[1:0] $end
+$var reg 1 z# f $end
+$var reg 7 {# internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 |# a $end
+$var reg 1 }# b $end
+$var reg 1 !$ sel $end
+$var reg 1 "$ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 #$ a $end
+$var reg 1 $$ b $end
+$var reg 1 %$ sel $end
+$var reg 1 &$ f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 '$ a $end
+$var reg 1 ($ b $end
+$var reg 1 )$ sel $end
+$var reg 1 *$ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (6) $end
+$scope module alu_i $end
+$var reg 1 +$ a $end
+$var reg 1 ,$ b $end
+$var reg 1 -$ set $end
+$var reg 1 .$ cin $end
+$var reg 4 /$ opcode[3:0] $end
+$var reg 1 0$ result $end
+$var reg 1 1$ cout $end
+$var reg 1 2$ not_a $end
+$var reg 1 3$ not_b $end
+$var reg 1 4$ mux_a $end
+$var reg 1 5$ mux_b $end
+$var reg 1 6$ or_out $end
+$var reg 1 7$ and_out $end
+$var reg 1 8$ adder_out $end
+$var reg 4 9$ data_in[3:0] $end
+$var reg 2 :$ mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 ;$ a $end
+$var reg 1 <$ b $end
+$var reg 1 =$ sel $end
+$var reg 1 >$ f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 ?$ a $end
+$var reg 1 @$ b $end
+$var reg 1 A$ sel $end
+$var reg 1 B$ f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 C$ x $end
+$var reg 1 D$ y $end
+$var reg 1 E$ cin $end
+$var reg 1 F$ cout $end
+$var reg 1 G$ sum $end
+$var reg 1 H$ sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 I$ data_in[3:0] $end
+$var reg 2 J$ sel[1:0] $end
+$var reg 1 K$ f $end
+$var reg 7 L$ internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 M$ a $end
+$var reg 1 N$ b $end
+$var reg 1 O$ sel $end
+$var reg 1 P$ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 Q$ a $end
+$var reg 1 R$ b $end
+$var reg 1 S$ sel $end
+$var reg 1 T$ f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 U$ a $end
+$var reg 1 V$ b $end
+$var reg 1 W$ sel $end
+$var reg 1 X$ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (7) $end
+$scope module alu_i $end
+$var reg 1 Y$ a $end
+$var reg 1 Z$ b $end
+$var reg 1 [$ set $end
+$var reg 1 \$ cin $end
+$var reg 4 ]$ opcode[3:0] $end
+$var reg 1 ^$ result $end
+$var reg 1 _$ cout $end
+$var reg 1 `$ not_a $end
+$var reg 1 a$ not_b $end
+$var reg 1 b$ mux_a $end
+$var reg 1 c$ mux_b $end
+$var reg 1 d$ or_out $end
+$var reg 1 e$ and_out $end
+$var reg 1 f$ adder_out $end
+$var reg 4 g$ data_in[3:0] $end
+$var reg 2 h$ mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 i$ a $end
+$var reg 1 j$ b $end
+$var reg 1 k$ sel $end
+$var reg 1 l$ f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 m$ a $end
+$var reg 1 n$ b $end
+$var reg 1 o$ sel $end
+$var reg 1 p$ f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 q$ x $end
+$var reg 1 r$ y $end
+$var reg 1 s$ cin $end
+$var reg 1 t$ cout $end
+$var reg 1 u$ sum $end
+$var reg 1 v$ sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 w$ data_in[3:0] $end
+$var reg 2 x$ sel[1:0] $end
+$var reg 1 y$ f $end
+$var reg 7 z$ internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 {$ a $end
+$var reg 1 |$ b $end
+$var reg 1 }$ sel $end
+$var reg 1 !% f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 "% a $end
+$var reg 1 #% b $end
+$var reg 1 $% sel $end
+$var reg 1 %% f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 &% a $end
+$var reg 1 '% b $end
+$var reg 1 (% sel $end
+$var reg 1 )% f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (8) $end
+$scope module alu_i $end
+$var reg 1 *% a $end
+$var reg 1 +% b $end
+$var reg 1 ,% set $end
+$var reg 1 -% cin $end
+$var reg 4 .% opcode[3:0] $end
+$var reg 1 /% result $end
+$var reg 1 0% cout $end
+$var reg 1 1% not_a $end
+$var reg 1 2% not_b $end
+$var reg 1 3% mux_a $end
+$var reg 1 4% mux_b $end
+$var reg 1 5% or_out $end
+$var reg 1 6% and_out $end
+$var reg 1 7% adder_out $end
+$var reg 4 8% data_in[3:0] $end
+$var reg 2 9% mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 :% a $end
+$var reg 1 ;% b $end
+$var reg 1 <% sel $end
+$var reg 1 =% f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 >% a $end
+$var reg 1 ?% b $end
+$var reg 1 @% sel $end
+$var reg 1 A% f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 B% x $end
+$var reg 1 C% y $end
+$var reg 1 D% cin $end
+$var reg 1 E% cout $end
+$var reg 1 F% sum $end
+$var reg 1 G% sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 H% data_in[3:0] $end
+$var reg 2 I% sel[1:0] $end
+$var reg 1 J% f $end
+$var reg 7 K% internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 L% a $end
+$var reg 1 M% b $end
+$var reg 1 N% sel $end
+$var reg 1 O% f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 P% a $end
+$var reg 1 Q% b $end
+$var reg 1 R% sel $end
+$var reg 1 S% f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 T% a $end
+$var reg 1 U% b $end
+$var reg 1 V% sel $end
+$var reg 1 W% f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (9) $end
+$scope module alu_i $end
+$var reg 1 X% a $end
+$var reg 1 Y% b $end
+$var reg 1 Z% set $end
+$var reg 1 [% cin $end
+$var reg 4 \% opcode[3:0] $end
+$var reg 1 ]% result $end
+$var reg 1 ^% cout $end
+$var reg 1 _% not_a $end
+$var reg 1 `% not_b $end
+$var reg 1 a% mux_a $end
+$var reg 1 b% mux_b $end
+$var reg 1 c% or_out $end
+$var reg 1 d% and_out $end
+$var reg 1 e% adder_out $end
+$var reg 4 f% data_in[3:0] $end
+$var reg 2 g% mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 h% a $end
+$var reg 1 i% b $end
+$var reg 1 j% sel $end
+$var reg 1 k% f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 l% a $end
+$var reg 1 m% b $end
+$var reg 1 n% sel $end
+$var reg 1 o% f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 p% x $end
+$var reg 1 q% y $end
+$var reg 1 r% cin $end
+$var reg 1 s% cout $end
+$var reg 1 t% sum $end
+$var reg 1 u% sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 v% data_in[3:0] $end
+$var reg 2 w% sel[1:0] $end
+$var reg 1 x% f $end
+$var reg 7 y% internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 z% a $end
+$var reg 1 {% b $end
+$var reg 1 |% sel $end
+$var reg 1 }% f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 !& a $end
+$var reg 1 "& b $end
+$var reg 1 #& sel $end
+$var reg 1 $& f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 %& a $end
+$var reg 1 && b $end
+$var reg 1 '& sel $end
+$var reg 1 (& f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (10) $end
+$scope module alu_i $end
+$var reg 1 )& a $end
+$var reg 1 *& b $end
+$var reg 1 +& set $end
+$var reg 1 ,& cin $end
+$var reg 4 -& opcode[3:0] $end
+$var reg 1 .& result $end
+$var reg 1 /& cout $end
+$var reg 1 0& not_a $end
+$var reg 1 1& not_b $end
+$var reg 1 2& mux_a $end
+$var reg 1 3& mux_b $end
+$var reg 1 4& or_out $end
+$var reg 1 5& and_out $end
+$var reg 1 6& adder_out $end
+$var reg 4 7& data_in[3:0] $end
+$var reg 2 8& mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 9& a $end
+$var reg 1 :& b $end
+$var reg 1 ;& sel $end
+$var reg 1 <& f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 =& a $end
+$var reg 1 >& b $end
+$var reg 1 ?& sel $end
+$var reg 1 @& f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 A& x $end
+$var reg 1 B& y $end
+$var reg 1 C& cin $end
+$var reg 1 D& cout $end
+$var reg 1 E& sum $end
+$var reg 1 F& sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 G& data_in[3:0] $end
+$var reg 2 H& sel[1:0] $end
+$var reg 1 I& f $end
+$var reg 7 J& internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 K& a $end
+$var reg 1 L& b $end
+$var reg 1 M& sel $end
+$var reg 1 N& f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 O& a $end
+$var reg 1 P& b $end
+$var reg 1 Q& sel $end
+$var reg 1 R& f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 S& a $end
+$var reg 1 T& b $end
+$var reg 1 U& sel $end
+$var reg 1 V& f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (11) $end
+$scope module alu_i $end
+$var reg 1 W& a $end
+$var reg 1 X& b $end
+$var reg 1 Y& set $end
+$var reg 1 Z& cin $end
+$var reg 4 [& opcode[3:0] $end
+$var reg 1 \& result $end
+$var reg 1 ]& cout $end
+$var reg 1 ^& not_a $end
+$var reg 1 _& not_b $end
+$var reg 1 `& mux_a $end
+$var reg 1 a& mux_b $end
+$var reg 1 b& or_out $end
+$var reg 1 c& and_out $end
+$var reg 1 d& adder_out $end
+$var reg 4 e& data_in[3:0] $end
+$var reg 2 f& mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 g& a $end
+$var reg 1 h& b $end
+$var reg 1 i& sel $end
+$var reg 1 j& f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 k& a $end
+$var reg 1 l& b $end
+$var reg 1 m& sel $end
+$var reg 1 n& f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 o& x $end
+$var reg 1 p& y $end
+$var reg 1 q& cin $end
+$var reg 1 r& cout $end
+$var reg 1 s& sum $end
+$var reg 1 t& sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 u& data_in[3:0] $end
+$var reg 2 v& sel[1:0] $end
+$var reg 1 w& f $end
+$var reg 7 x& internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 y& a $end
+$var reg 1 z& b $end
+$var reg 1 {& sel $end
+$var reg 1 |& f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 }& a $end
+$var reg 1 !' b $end
+$var reg 1 "' sel $end
+$var reg 1 #' f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 $' a $end
+$var reg 1 %' b $end
+$var reg 1 &' sel $end
+$var reg 1 '' f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (12) $end
+$scope module alu_i $end
+$var reg 1 (' a $end
+$var reg 1 )' b $end
+$var reg 1 *' set $end
+$var reg 1 +' cin $end
+$var reg 4 ,' opcode[3:0] $end
+$var reg 1 -' result $end
+$var reg 1 .' cout $end
+$var reg 1 /' not_a $end
+$var reg 1 0' not_b $end
+$var reg 1 1' mux_a $end
+$var reg 1 2' mux_b $end
+$var reg 1 3' or_out $end
+$var reg 1 4' and_out $end
+$var reg 1 5' adder_out $end
+$var reg 4 6' data_in[3:0] $end
+$var reg 2 7' mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 8' a $end
+$var reg 1 9' b $end
+$var reg 1 :' sel $end
+$var reg 1 ;' f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 <' a $end
+$var reg 1 =' b $end
+$var reg 1 >' sel $end
+$var reg 1 ?' f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 @' x $end
+$var reg 1 A' y $end
+$var reg 1 B' cin $end
+$var reg 1 C' cout $end
+$var reg 1 D' sum $end
+$var reg 1 E' sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 F' data_in[3:0] $end
+$var reg 2 G' sel[1:0] $end
+$var reg 1 H' f $end
+$var reg 7 I' internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 J' a $end
+$var reg 1 K' b $end
+$var reg 1 L' sel $end
+$var reg 1 M' f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 N' a $end
+$var reg 1 O' b $end
+$var reg 1 P' sel $end
+$var reg 1 Q' f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 R' a $end
+$var reg 1 S' b $end
+$var reg 1 T' sel $end
+$var reg 1 U' f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (13) $end
+$scope module alu_i $end
+$var reg 1 V' a $end
+$var reg 1 W' b $end
+$var reg 1 X' set $end
+$var reg 1 Y' cin $end
+$var reg 4 Z' opcode[3:0] $end
+$var reg 1 [' result $end
+$var reg 1 \' cout $end
+$var reg 1 ]' not_a $end
+$var reg 1 ^' not_b $end
+$var reg 1 _' mux_a $end
+$var reg 1 `' mux_b $end
+$var reg 1 a' or_out $end
+$var reg 1 b' and_out $end
+$var reg 1 c' adder_out $end
+$var reg 4 d' data_in[3:0] $end
+$var reg 2 e' mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 f' a $end
+$var reg 1 g' b $end
+$var reg 1 h' sel $end
+$var reg 1 i' f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 j' a $end
+$var reg 1 k' b $end
+$var reg 1 l' sel $end
+$var reg 1 m' f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 n' x $end
+$var reg 1 o' y $end
+$var reg 1 p' cin $end
+$var reg 1 q' cout $end
+$var reg 1 r' sum $end
+$var reg 1 s' sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 t' data_in[3:0] $end
+$var reg 2 u' sel[1:0] $end
+$var reg 1 v' f $end
+$var reg 7 w' internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 x' a $end
+$var reg 1 y' b $end
+$var reg 1 z' sel $end
+$var reg 1 {' f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 |' a $end
+$var reg 1 }' b $end
+$var reg 1 !( sel $end
+$var reg 1 "( f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 #( a $end
+$var reg 1 $( b $end
+$var reg 1 %( sel $end
+$var reg 1 &( f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (14) $end
+$scope module alu_i $end
+$var reg 1 '( a $end
+$var reg 1 (( b $end
+$var reg 1 )( set $end
+$var reg 1 *( cin $end
+$var reg 4 +( opcode[3:0] $end
+$var reg 1 ,( result $end
+$var reg 1 -( cout $end
+$var reg 1 .( not_a $end
+$var reg 1 /( not_b $end
+$var reg 1 0( mux_a $end
+$var reg 1 1( mux_b $end
+$var reg 1 2( or_out $end
+$var reg 1 3( and_out $end
+$var reg 1 4( adder_out $end
+$var reg 4 5( data_in[3:0] $end
+$var reg 2 6( mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 7( a $end
+$var reg 1 8( b $end
+$var reg 1 9( sel $end
+$var reg 1 :( f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 ;( a $end
+$var reg 1 <( b $end
+$var reg 1 =( sel $end
+$var reg 1 >( f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 ?( x $end
+$var reg 1 @( y $end
+$var reg 1 A( cin $end
+$var reg 1 B( cout $end
+$var reg 1 C( sum $end
+$var reg 1 D( sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 E( data_in[3:0] $end
+$var reg 2 F( sel[1:0] $end
+$var reg 1 G( f $end
+$var reg 7 H( internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 I( a $end
+$var reg 1 J( b $end
+$var reg 1 K( sel $end
+$var reg 1 L( f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 M( a $end
+$var reg 1 N( b $end
+$var reg 1 O( sel $end
+$var reg 1 P( f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 Q( a $end
+$var reg 1 R( b $end
+$var reg 1 S( sel $end
+$var reg 1 T( f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (15) $end
+$scope module alu_i $end
+$var reg 1 U( a $end
+$var reg 1 V( b $end
+$var reg 1 W( set $end
+$var reg 1 X( cin $end
+$var reg 4 Y( opcode[3:0] $end
+$var reg 1 Z( result $end
+$var reg 1 [( cout $end
+$var reg 1 \( not_a $end
+$var reg 1 ]( not_b $end
+$var reg 1 ^( mux_a $end
+$var reg 1 _( mux_b $end
+$var reg 1 `( or_out $end
+$var reg 1 a( and_out $end
+$var reg 1 b( adder_out $end
+$var reg 4 c( data_in[3:0] $end
+$var reg 2 d( mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 e( a $end
+$var reg 1 f( b $end
+$var reg 1 g( sel $end
+$var reg 1 h( f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 i( a $end
+$var reg 1 j( b $end
+$var reg 1 k( sel $end
+$var reg 1 l( f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 m( x $end
+$var reg 1 n( y $end
+$var reg 1 o( cin $end
+$var reg 1 p( cout $end
+$var reg 1 q( sum $end
+$var reg 1 r( sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 s( data_in[3:0] $end
+$var reg 2 t( sel[1:0] $end
+$var reg 1 u( f $end
+$var reg 7 v( internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 w( a $end
+$var reg 1 x( b $end
+$var reg 1 y( sel $end
+$var reg 1 z( f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 {( a $end
+$var reg 1 |( b $end
+$var reg 1 }( sel $end
+$var reg 1 !) f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 ") a $end
+$var reg 1 #) b $end
+$var reg 1 $) sel $end
+$var reg 1 %) f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (16) $end
+$scope module alu_i $end
+$var reg 1 &) a $end
+$var reg 1 ') b $end
+$var reg 1 () set $end
+$var reg 1 )) cin $end
+$var reg 4 *) opcode[3:0] $end
+$var reg 1 +) result $end
+$var reg 1 ,) cout $end
+$var reg 1 -) not_a $end
+$var reg 1 .) not_b $end
+$var reg 1 /) mux_a $end
+$var reg 1 0) mux_b $end
+$var reg 1 1) or_out $end
+$var reg 1 2) and_out $end
+$var reg 1 3) adder_out $end
+$var reg 4 4) data_in[3:0] $end
+$var reg 2 5) mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 6) a $end
+$var reg 1 7) b $end
+$var reg 1 8) sel $end
+$var reg 1 9) f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 :) a $end
+$var reg 1 ;) b $end
+$var reg 1 <) sel $end
+$var reg 1 =) f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 >) x $end
+$var reg 1 ?) y $end
+$var reg 1 @) cin $end
+$var reg 1 A) cout $end
+$var reg 1 B) sum $end
+$var reg 1 C) sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 D) data_in[3:0] $end
+$var reg 2 E) sel[1:0] $end
+$var reg 1 F) f $end
+$var reg 7 G) internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 H) a $end
+$var reg 1 I) b $end
+$var reg 1 J) sel $end
+$var reg 1 K) f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 L) a $end
+$var reg 1 M) b $end
+$var reg 1 N) sel $end
+$var reg 1 O) f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 P) a $end
+$var reg 1 Q) b $end
+$var reg 1 R) sel $end
+$var reg 1 S) f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (17) $end
+$scope module alu_i $end
+$var reg 1 T) a $end
+$var reg 1 U) b $end
+$var reg 1 V) set $end
+$var reg 1 W) cin $end
+$var reg 4 X) opcode[3:0] $end
+$var reg 1 Y) result $end
+$var reg 1 Z) cout $end
+$var reg 1 [) not_a $end
+$var reg 1 \) not_b $end
+$var reg 1 ]) mux_a $end
+$var reg 1 ^) mux_b $end
+$var reg 1 _) or_out $end
+$var reg 1 `) and_out $end
+$var reg 1 a) adder_out $end
+$var reg 4 b) data_in[3:0] $end
+$var reg 2 c) mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 d) a $end
+$var reg 1 e) b $end
+$var reg 1 f) sel $end
+$var reg 1 g) f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 h) a $end
+$var reg 1 i) b $end
+$var reg 1 j) sel $end
+$var reg 1 k) f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 l) x $end
+$var reg 1 m) y $end
+$var reg 1 n) cin $end
+$var reg 1 o) cout $end
+$var reg 1 p) sum $end
+$var reg 1 q) sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 r) data_in[3:0] $end
+$var reg 2 s) sel[1:0] $end
+$var reg 1 t) f $end
+$var reg 7 u) internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 v) a $end
+$var reg 1 w) b $end
+$var reg 1 x) sel $end
+$var reg 1 y) f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 z) a $end
+$var reg 1 {) b $end
+$var reg 1 |) sel $end
+$var reg 1 }) f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 !* a $end
+$var reg 1 "* b $end
+$var reg 1 #* sel $end
+$var reg 1 $* f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (18) $end
+$scope module alu_i $end
+$var reg 1 %* a $end
+$var reg 1 &* b $end
+$var reg 1 '* set $end
+$var reg 1 (* cin $end
+$var reg 4 )* opcode[3:0] $end
+$var reg 1 ** result $end
+$var reg 1 +* cout $end
+$var reg 1 ,* not_a $end
+$var reg 1 -* not_b $end
+$var reg 1 .* mux_a $end
+$var reg 1 /* mux_b $end
+$var reg 1 0* or_out $end
+$var reg 1 1* and_out $end
+$var reg 1 2* adder_out $end
+$var reg 4 3* data_in[3:0] $end
+$var reg 2 4* mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 5* a $end
+$var reg 1 6* b $end
+$var reg 1 7* sel $end
+$var reg 1 8* f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 9* a $end
+$var reg 1 :* b $end
+$var reg 1 ;* sel $end
+$var reg 1 <* f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 =* x $end
+$var reg 1 >* y $end
+$var reg 1 ?* cin $end
+$var reg 1 @* cout $end
+$var reg 1 A* sum $end
+$var reg 1 B* sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 C* data_in[3:0] $end
+$var reg 2 D* sel[1:0] $end
+$var reg 1 E* f $end
+$var reg 7 F* internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 G* a $end
+$var reg 1 H* b $end
+$var reg 1 I* sel $end
+$var reg 1 J* f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 K* a $end
+$var reg 1 L* b $end
+$var reg 1 M* sel $end
+$var reg 1 N* f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 O* a $end
+$var reg 1 P* b $end
+$var reg 1 Q* sel $end
+$var reg 1 R* f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (19) $end
+$scope module alu_i $end
+$var reg 1 S* a $end
+$var reg 1 T* b $end
+$var reg 1 U* set $end
+$var reg 1 V* cin $end
+$var reg 4 W* opcode[3:0] $end
+$var reg 1 X* result $end
+$var reg 1 Y* cout $end
+$var reg 1 Z* not_a $end
+$var reg 1 [* not_b $end
+$var reg 1 \* mux_a $end
+$var reg 1 ]* mux_b $end
+$var reg 1 ^* or_out $end
+$var reg 1 _* and_out $end
+$var reg 1 `* adder_out $end
+$var reg 4 a* data_in[3:0] $end
+$var reg 2 b* mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 c* a $end
+$var reg 1 d* b $end
+$var reg 1 e* sel $end
+$var reg 1 f* f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 g* a $end
+$var reg 1 h* b $end
+$var reg 1 i* sel $end
+$var reg 1 j* f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 k* x $end
+$var reg 1 l* y $end
+$var reg 1 m* cin $end
+$var reg 1 n* cout $end
+$var reg 1 o* sum $end
+$var reg 1 p* sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 q* data_in[3:0] $end
+$var reg 2 r* sel[1:0] $end
+$var reg 1 s* f $end
+$var reg 7 t* internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 u* a $end
+$var reg 1 v* b $end
+$var reg 1 w* sel $end
+$var reg 1 x* f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 y* a $end
+$var reg 1 z* b $end
+$var reg 1 {* sel $end
+$var reg 1 |* f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 }* a $end
+$var reg 1 !+ b $end
+$var reg 1 "+ sel $end
+$var reg 1 #+ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (20) $end
+$scope module alu_i $end
+$var reg 1 $+ a $end
+$var reg 1 %+ b $end
+$var reg 1 &+ set $end
+$var reg 1 '+ cin $end
+$var reg 4 (+ opcode[3:0] $end
+$var reg 1 )+ result $end
+$var reg 1 *+ cout $end
+$var reg 1 ++ not_a $end
+$var reg 1 ,+ not_b $end
+$var reg 1 -+ mux_a $end
+$var reg 1 .+ mux_b $end
+$var reg 1 /+ or_out $end
+$var reg 1 0+ and_out $end
+$var reg 1 1+ adder_out $end
+$var reg 4 2+ data_in[3:0] $end
+$var reg 2 3+ mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 4+ a $end
+$var reg 1 5+ b $end
+$var reg 1 6+ sel $end
+$var reg 1 7+ f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 8+ a $end
+$var reg 1 9+ b $end
+$var reg 1 :+ sel $end
+$var reg 1 ;+ f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 <+ x $end
+$var reg 1 =+ y $end
+$var reg 1 >+ cin $end
+$var reg 1 ?+ cout $end
+$var reg 1 @+ sum $end
+$var reg 1 A+ sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 B+ data_in[3:0] $end
+$var reg 2 C+ sel[1:0] $end
+$var reg 1 D+ f $end
+$var reg 7 E+ internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 F+ a $end
+$var reg 1 G+ b $end
+$var reg 1 H+ sel $end
+$var reg 1 I+ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 J+ a $end
+$var reg 1 K+ b $end
+$var reg 1 L+ sel $end
+$var reg 1 M+ f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 N+ a $end
+$var reg 1 O+ b $end
+$var reg 1 P+ sel $end
+$var reg 1 Q+ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (21) $end
+$scope module alu_i $end
+$var reg 1 R+ a $end
+$var reg 1 S+ b $end
+$var reg 1 T+ set $end
+$var reg 1 U+ cin $end
+$var reg 4 V+ opcode[3:0] $end
+$var reg 1 W+ result $end
+$var reg 1 X+ cout $end
+$var reg 1 Y+ not_a $end
+$var reg 1 Z+ not_b $end
+$var reg 1 [+ mux_a $end
+$var reg 1 \+ mux_b $end
+$var reg 1 ]+ or_out $end
+$var reg 1 ^+ and_out $end
+$var reg 1 _+ adder_out $end
+$var reg 4 `+ data_in[3:0] $end
+$var reg 2 a+ mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 b+ a $end
+$var reg 1 c+ b $end
+$var reg 1 d+ sel $end
+$var reg 1 e+ f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 f+ a $end
+$var reg 1 g+ b $end
+$var reg 1 h+ sel $end
+$var reg 1 i+ f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 j+ x $end
+$var reg 1 k+ y $end
+$var reg 1 l+ cin $end
+$var reg 1 m+ cout $end
+$var reg 1 n+ sum $end
+$var reg 1 o+ sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 p+ data_in[3:0] $end
+$var reg 2 q+ sel[1:0] $end
+$var reg 1 r+ f $end
+$var reg 7 s+ internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 t+ a $end
+$var reg 1 u+ b $end
+$var reg 1 v+ sel $end
+$var reg 1 w+ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 x+ a $end
+$var reg 1 y+ b $end
+$var reg 1 z+ sel $end
+$var reg 1 {+ f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 |+ a $end
+$var reg 1 }+ b $end
+$var reg 1 !, sel $end
+$var reg 1 ", f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (22) $end
+$scope module alu_i $end
+$var reg 1 #, a $end
+$var reg 1 $, b $end
+$var reg 1 %, set $end
+$var reg 1 &, cin $end
+$var reg 4 ', opcode[3:0] $end
+$var reg 1 (, result $end
+$var reg 1 ), cout $end
+$var reg 1 *, not_a $end
+$var reg 1 +, not_b $end
+$var reg 1 ,, mux_a $end
+$var reg 1 -, mux_b $end
+$var reg 1 ., or_out $end
+$var reg 1 /, and_out $end
+$var reg 1 0, adder_out $end
+$var reg 4 1, data_in[3:0] $end
+$var reg 2 2, mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 3, a $end
+$var reg 1 4, b $end
+$var reg 1 5, sel $end
+$var reg 1 6, f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 7, a $end
+$var reg 1 8, b $end
+$var reg 1 9, sel $end
+$var reg 1 :, f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 ;, x $end
+$var reg 1 <, y $end
+$var reg 1 =, cin $end
+$var reg 1 >, cout $end
+$var reg 1 ?, sum $end
+$var reg 1 @, sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 A, data_in[3:0] $end
+$var reg 2 B, sel[1:0] $end
+$var reg 1 C, f $end
+$var reg 7 D, internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 E, a $end
+$var reg 1 F, b $end
+$var reg 1 G, sel $end
+$var reg 1 H, f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 I, a $end
+$var reg 1 J, b $end
+$var reg 1 K, sel $end
+$var reg 1 L, f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 M, a $end
+$var reg 1 N, b $end
+$var reg 1 O, sel $end
+$var reg 1 P, f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (23) $end
+$scope module alu_i $end
+$var reg 1 Q, a $end
+$var reg 1 R, b $end
+$var reg 1 S, set $end
+$var reg 1 T, cin $end
+$var reg 4 U, opcode[3:0] $end
+$var reg 1 V, result $end
+$var reg 1 W, cout $end
+$var reg 1 X, not_a $end
+$var reg 1 Y, not_b $end
+$var reg 1 Z, mux_a $end
+$var reg 1 [, mux_b $end
+$var reg 1 \, or_out $end
+$var reg 1 ], and_out $end
+$var reg 1 ^, adder_out $end
+$var reg 4 _, data_in[3:0] $end
+$var reg 2 `, mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 a, a $end
+$var reg 1 b, b $end
+$var reg 1 c, sel $end
+$var reg 1 d, f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 e, a $end
+$var reg 1 f, b $end
+$var reg 1 g, sel $end
+$var reg 1 h, f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 i, x $end
+$var reg 1 j, y $end
+$var reg 1 k, cin $end
+$var reg 1 l, cout $end
+$var reg 1 m, sum $end
+$var reg 1 n, sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 o, data_in[3:0] $end
+$var reg 2 p, sel[1:0] $end
+$var reg 1 q, f $end
+$var reg 7 r, internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 s, a $end
+$var reg 1 t, b $end
+$var reg 1 u, sel $end
+$var reg 1 v, f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 w, a $end
+$var reg 1 x, b $end
+$var reg 1 y, sel $end
+$var reg 1 z, f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 {, a $end
+$var reg 1 |, b $end
+$var reg 1 }, sel $end
+$var reg 1 !- f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (24) $end
+$scope module alu_i $end
+$var reg 1 "- a $end
+$var reg 1 #- b $end
+$var reg 1 $- set $end
+$var reg 1 %- cin $end
+$var reg 4 &- opcode[3:0] $end
+$var reg 1 '- result $end
+$var reg 1 (- cout $end
+$var reg 1 )- not_a $end
+$var reg 1 *- not_b $end
+$var reg 1 +- mux_a $end
+$var reg 1 ,- mux_b $end
+$var reg 1 -- or_out $end
+$var reg 1 .- and_out $end
+$var reg 1 /- adder_out $end
+$var reg 4 0- data_in[3:0] $end
+$var reg 2 1- mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 2- a $end
+$var reg 1 3- b $end
+$var reg 1 4- sel $end
+$var reg 1 5- f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 6- a $end
+$var reg 1 7- b $end
+$var reg 1 8- sel $end
+$var reg 1 9- f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 :- x $end
+$var reg 1 ;- y $end
+$var reg 1 <- cin $end
+$var reg 1 =- cout $end
+$var reg 1 >- sum $end
+$var reg 1 ?- sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 @- data_in[3:0] $end
+$var reg 2 A- sel[1:0] $end
+$var reg 1 B- f $end
+$var reg 7 C- internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 D- a $end
+$var reg 1 E- b $end
+$var reg 1 F- sel $end
+$var reg 1 G- f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 H- a $end
+$var reg 1 I- b $end
+$var reg 1 J- sel $end
+$var reg 1 K- f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 L- a $end
+$var reg 1 M- b $end
+$var reg 1 N- sel $end
+$var reg 1 O- f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (25) $end
+$scope module alu_i $end
+$var reg 1 P- a $end
+$var reg 1 Q- b $end
+$var reg 1 R- set $end
+$var reg 1 S- cin $end
+$var reg 4 T- opcode[3:0] $end
+$var reg 1 U- result $end
+$var reg 1 V- cout $end
+$var reg 1 W- not_a $end
+$var reg 1 X- not_b $end
+$var reg 1 Y- mux_a $end
+$var reg 1 Z- mux_b $end
+$var reg 1 [- or_out $end
+$var reg 1 \- and_out $end
+$var reg 1 ]- adder_out $end
+$var reg 4 ^- data_in[3:0] $end
+$var reg 2 _- mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 `- a $end
+$var reg 1 a- b $end
+$var reg 1 b- sel $end
+$var reg 1 c- f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 d- a $end
+$var reg 1 e- b $end
+$var reg 1 f- sel $end
+$var reg 1 g- f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 h- x $end
+$var reg 1 i- y $end
+$var reg 1 j- cin $end
+$var reg 1 k- cout $end
+$var reg 1 l- sum $end
+$var reg 1 m- sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 n- data_in[3:0] $end
+$var reg 2 o- sel[1:0] $end
+$var reg 1 p- f $end
+$var reg 7 q- internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 r- a $end
+$var reg 1 s- b $end
+$var reg 1 t- sel $end
+$var reg 1 u- f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 v- a $end
+$var reg 1 w- b $end
+$var reg 1 x- sel $end
+$var reg 1 y- f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 z- a $end
+$var reg 1 {- b $end
+$var reg 1 |- sel $end
+$var reg 1 }- f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (26) $end
+$scope module alu_i $end
+$var reg 1 !. a $end
+$var reg 1 ". b $end
+$var reg 1 #. set $end
+$var reg 1 $. cin $end
+$var reg 4 %. opcode[3:0] $end
+$var reg 1 &. result $end
+$var reg 1 '. cout $end
+$var reg 1 (. not_a $end
+$var reg 1 ). not_b $end
+$var reg 1 *. mux_a $end
+$var reg 1 +. mux_b $end
+$var reg 1 ,. or_out $end
+$var reg 1 -. and_out $end
+$var reg 1 .. adder_out $end
+$var reg 4 /. data_in[3:0] $end
+$var reg 2 0. mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 1. a $end
+$var reg 1 2. b $end
+$var reg 1 3. sel $end
+$var reg 1 4. f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 5. a $end
+$var reg 1 6. b $end
+$var reg 1 7. sel $end
+$var reg 1 8. f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 9. x $end
+$var reg 1 :. y $end
+$var reg 1 ;. cin $end
+$var reg 1 <. cout $end
+$var reg 1 =. sum $end
+$var reg 1 >. sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 ?. data_in[3:0] $end
+$var reg 2 @. sel[1:0] $end
+$var reg 1 A. f $end
+$var reg 7 B. internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 C. a $end
+$var reg 1 D. b $end
+$var reg 1 E. sel $end
+$var reg 1 F. f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 G. a $end
+$var reg 1 H. b $end
+$var reg 1 I. sel $end
+$var reg 1 J. f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 K. a $end
+$var reg 1 L. b $end
+$var reg 1 M. sel $end
+$var reg 1 N. f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (27) $end
+$scope module alu_i $end
+$var reg 1 O. a $end
+$var reg 1 P. b $end
+$var reg 1 Q. set $end
+$var reg 1 R. cin $end
+$var reg 4 S. opcode[3:0] $end
+$var reg 1 T. result $end
+$var reg 1 U. cout $end
+$var reg 1 V. not_a $end
+$var reg 1 W. not_b $end
+$var reg 1 X. mux_a $end
+$var reg 1 Y. mux_b $end
+$var reg 1 Z. or_out $end
+$var reg 1 [. and_out $end
+$var reg 1 \. adder_out $end
+$var reg 4 ]. data_in[3:0] $end
+$var reg 2 ^. mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 _. a $end
+$var reg 1 `. b $end
+$var reg 1 a. sel $end
+$var reg 1 b. f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 c. a $end
+$var reg 1 d. b $end
+$var reg 1 e. sel $end
+$var reg 1 f. f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 g. x $end
+$var reg 1 h. y $end
+$var reg 1 i. cin $end
+$var reg 1 j. cout $end
+$var reg 1 k. sum $end
+$var reg 1 l. sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 m. data_in[3:0] $end
+$var reg 2 n. sel[1:0] $end
+$var reg 1 o. f $end
+$var reg 7 p. internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 q. a $end
+$var reg 1 r. b $end
+$var reg 1 s. sel $end
+$var reg 1 t. f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 u. a $end
+$var reg 1 v. b $end
+$var reg 1 w. sel $end
+$var reg 1 x. f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 y. a $end
+$var reg 1 z. b $end
+$var reg 1 {. sel $end
+$var reg 1 |. f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (28) $end
+$scope module alu_i $end
+$var reg 1 }. a $end
+$var reg 1 !/ b $end
+$var reg 1 "/ set $end
+$var reg 1 #/ cin $end
+$var reg 4 $/ opcode[3:0] $end
+$var reg 1 %/ result $end
+$var reg 1 &/ cout $end
+$var reg 1 '/ not_a $end
+$var reg 1 (/ not_b $end
+$var reg 1 )/ mux_a $end
+$var reg 1 */ mux_b $end
+$var reg 1 +/ or_out $end
+$var reg 1 ,/ and_out $end
+$var reg 1 -/ adder_out $end
+$var reg 4 ./ data_in[3:0] $end
+$var reg 2 // mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 0/ a $end
+$var reg 1 1/ b $end
+$var reg 1 2/ sel $end
+$var reg 1 3/ f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 4/ a $end
+$var reg 1 5/ b $end
+$var reg 1 6/ sel $end
+$var reg 1 7/ f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 8/ x $end
+$var reg 1 9/ y $end
+$var reg 1 :/ cin $end
+$var reg 1 ;/ cout $end
+$var reg 1 </ sum $end
+$var reg 1 =/ sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 >/ data_in[3:0] $end
+$var reg 2 ?/ sel[1:0] $end
+$var reg 1 @/ f $end
+$var reg 7 A/ internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 B/ a $end
+$var reg 1 C/ b $end
+$var reg 1 D/ sel $end
+$var reg 1 E/ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 F/ a $end
+$var reg 1 G/ b $end
+$var reg 1 H/ sel $end
+$var reg 1 I/ f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 J/ a $end
+$var reg 1 K/ b $end
+$var reg 1 L/ sel $end
+$var reg 1 M/ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (29) $end
+$scope module alu_i $end
+$var reg 1 N/ a $end
+$var reg 1 O/ b $end
+$var reg 1 P/ set $end
+$var reg 1 Q/ cin $end
+$var reg 4 R/ opcode[3:0] $end
+$var reg 1 S/ result $end
+$var reg 1 T/ cout $end
+$var reg 1 U/ not_a $end
+$var reg 1 V/ not_b $end
+$var reg 1 W/ mux_a $end
+$var reg 1 X/ mux_b $end
+$var reg 1 Y/ or_out $end
+$var reg 1 Z/ and_out $end
+$var reg 1 [/ adder_out $end
+$var reg 4 \/ data_in[3:0] $end
+$var reg 2 ]/ mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 ^/ a $end
+$var reg 1 _/ b $end
+$var reg 1 `/ sel $end
+$var reg 1 a/ f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 b/ a $end
+$var reg 1 c/ b $end
+$var reg 1 d/ sel $end
+$var reg 1 e/ f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 f/ x $end
+$var reg 1 g/ y $end
+$var reg 1 h/ cin $end
+$var reg 1 i/ cout $end
+$var reg 1 j/ sum $end
+$var reg 1 k/ sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 l/ data_in[3:0] $end
+$var reg 2 m/ sel[1:0] $end
+$var reg 1 n/ f $end
+$var reg 7 o/ internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 p/ a $end
+$var reg 1 q/ b $end
+$var reg 1 r/ sel $end
+$var reg 1 s/ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 t/ a $end
+$var reg 1 u/ b $end
+$var reg 1 v/ sel $end
+$var reg 1 w/ f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 x/ a $end
+$var reg 1 y/ b $end
+$var reg 1 z/ sel $end
+$var reg 1 {/ f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (30) $end
+$scope module alu_i $end
+$var reg 1 |/ a $end
+$var reg 1 }/ b $end
+$var reg 1 !0 set $end
+$var reg 1 "0 cin $end
+$var reg 4 #0 opcode[3:0] $end
+$var reg 1 $0 result $end
+$var reg 1 %0 cout $end
+$var reg 1 &0 not_a $end
+$var reg 1 '0 not_b $end
+$var reg 1 (0 mux_a $end
+$var reg 1 )0 mux_b $end
+$var reg 1 *0 or_out $end
+$var reg 1 +0 and_out $end
+$var reg 1 ,0 adder_out $end
+$var reg 4 -0 data_in[3:0] $end
+$var reg 2 .0 mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 /0 a $end
+$var reg 1 00 b $end
+$var reg 1 10 sel $end
+$var reg 1 20 f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 30 a $end
+$var reg 1 40 b $end
+$var reg 1 50 sel $end
+$var reg 1 60 f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 70 x $end
+$var reg 1 80 y $end
+$var reg 1 90 cin $end
+$var reg 1 :0 cout $end
+$var reg 1 ;0 sum $end
+$var reg 1 <0 sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 =0 data_in[3:0] $end
+$var reg 2 >0 sel[1:0] $end
+$var reg 1 ?0 f $end
+$var reg 7 @0 internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 A0 a $end
+$var reg 1 B0 b $end
+$var reg 1 C0 sel $end
+$var reg 1 D0 f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 E0 a $end
+$var reg 1 F0 b $end
+$var reg 1 G0 sel $end
+$var reg 1 H0 f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 I0 a $end
+$var reg 1 J0 b $end
+$var reg 1 K0 sel $end
+$var reg 1 L0 f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module alu_last $end
+$var reg 1 M0 a $end
+$var reg 1 N0 b $end
+$var reg 1 O0 set $end
+$var reg 1 P0 cin $end
+$var reg 4 Q0 opcode[3:0] $end
+$var reg 1 R0 result $end
+$var reg 1 S0 cout $end
+$var reg 1 T0 sign_bit $end
+$var reg 1 U0 not_a $end
+$var reg 1 V0 not_b $end
+$var reg 1 W0 mux_a $end
+$var reg 1 X0 mux_b $end
+$var reg 1 Y0 or_out $end
+$var reg 1 Z0 and_out $end
+$var reg 1 [0 adder_out $end
+$var reg 1 \0 inner_cout $end
+$var reg 4 ]0 data_in[3:0] $end
+$var reg 2 ^0 mux4x1_sel[1:0] $end
+$scope module mux2x1_a $end
+$var reg 1 _0 a $end
+$var reg 1 `0 b $end
+$var reg 1 a0 sel $end
+$var reg 1 b0 f $end
+$upscope $end
+$scope module mux2x1_b $end
+$var reg 1 c0 a $end
+$var reg 1 d0 b $end
+$var reg 1 e0 sel $end
+$var reg 1 f0 f $end
+$upscope $end
+$scope module full_adder_unit $end
+$var reg 1 g0 x $end
+$var reg 1 h0 y $end
+$var reg 1 i0 cin $end
+$var reg 1 j0 cout $end
+$var reg 1 k0 sum $end
+$var reg 1 l0 sum_0 $end
+$upscope $end
+$scope module mux4x1 $end
+$var reg 4 m0 data_in[3:0] $end
+$var reg 2 n0 sel[1:0] $end
+$var reg 1 o0 f $end
+$var reg 7 p0 internal_wire[6:0] $end
+$scope module (0) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 q0 a $end
+$var reg 1 r0 b $end
+$var reg 1 s0 sel $end
+$var reg 1 t0 f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module (0) $end
+$scope module mux $end
+$var reg 1 u0 a $end
+$var reg 1 v0 b $end
+$var reg 1 w0 sel $end
+$var reg 1 x0 f $end
+$upscope $end
+$upscope $end
+$scope module (1) $end
+$scope module mux $end
+$var reg 1 y0 a $end
+$var reg 1 z0 b $end
+$var reg 1 {0 sel $end
+$var reg 1 |0 f $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module (3) $end
+$upscope $end
+$scope module (4) $end
+$upscope $end
+$scope module (5) $end
+$upscope $end
+$scope module (6) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b00000000000000000000000011111111 !
+b00000000000000001111111100000000 "
+b00000000000000000000000000000000 #
+b0000 $
+b0001 %
+b00000000000000000000000011111111 &
+b00000000000000001111111100000000 '
+b0000 (
+b00000000000000000000000000000000 )
+b0001 *
+b0001 +
+b00000000000000000000000000000000 ,
+b00000000000000000000000000000000 -
+1.
+0/
+00
+01
+b0000 2
+03
+04
+05
+16
+17
+08
+19
+0:
+1;
+b0110 <
+b00 =
+1>
+0?
+0@
+1A
+0B
+1C
+0D
+0E
+1F
+0G
+0H
+0I
+1J
+1K
+b0110 L
+b00 M
+0N
+b0110100 O
+0P
+1Q
+0R
+0S
+0T
+1U
+0V
+0W
+1X
+0Y
+0Z
+1[
+1\
+0]
+0^
+0_
+b0000 `
+0a
+0b
+0c
+1d
+1e
+0f
+1g
+0h
+1i
+b0110 j
+b00 k
+1l
+0m
+0n
+1o
+0p
+1q
+0r
+0s
+1t
+0u
+0v
+0w
+1x
+1y
+b0110 z
+b00 {
+0|
+b0110100 }
+0!"
+1""
+0#"
+0$"
+0%"
+1&"
+0'"
+0("
+1)"
+0*"
+0+"
+1,"
+1-"
+0."
+0/"
+00"
+b0000 1"
+02"
+03"
+04"
+15"
+16"
+07"
+18"
+09"
+1:"
+b0110 ;"
+b00 <"
+1="
+0>"
+0?"
+1@"
+0A"
+1B"
+0C"
+0D"
+1E"
+0F"
+0G"
+0H"
+1I"
+1J"
+b0110 K"
+b00 L"
+0M"
+b0110100 N"
+0O"
+1P"
+0Q"
+0R"
+0S"
+1T"
+0U"
+0V"
+1W"
+0X"
+0Y"
+1Z"
+1["
+0\"
+0]"
+0^"
+b0000 _"
+0`"
+0a"
+0b"
+1c"
+1d"
+0e"
+1f"
+0g"
+1h"
+b0110 i"
+b00 j"
+1k"
+0l"
+0m"
+1n"
+0o"
+1p"
+0q"
+0r"
+1s"
+0t"
+0u"
+0v"
+1w"
+1x"
+b0110 y"
+b00 z"
+0{"
+b0110100 |"
+0}"
+1!#
+0"#
+0##
+0$#
+1%#
+0&#
+0'#
+1(#
+0)#
+0*#
+1+#
+1,#
+0-#
+0.#
+0/#
+b0000 0#
+01#
+02#
+03#
+14#
+15#
+06#
+17#
+08#
+19#
+b0110 :#
+b00 ;#
+1<#
+0=#
+0>#
+1?#
+0@#
+1A#
+0B#
+0C#
+1D#
+0E#
+0F#
+0G#
+1H#
+1I#
+b0110 J#
+b00 K#
+0L#
+b0110100 M#
+0N#
+1O#
+0P#
+0Q#
+0R#
+1S#
+0T#
+0U#
+1V#
+0W#
+0X#
+1Y#
+1Z#
+0[#
+0\#
+0]#
+b0000 ^#
+0_#
+0`#
+0a#
+1b#
+1c#
+0d#
+1e#
+0f#
+1g#
+b0110 h#
+b00 i#
+1j#
+0k#
+0l#
+1m#
+0n#
+1o#
+0p#
+0q#
+1r#
+0s#
+0t#
+0u#
+1v#
+1w#
+b0110 x#
+b00 y#
+0z#
+b0110100 {#
+0|#
+1}#
+0!$
+0"$
+0#$
+1$$
+0%$
+0&$
+1'$
+0($
+0)$
+1*$
+1+$
+0,$
+0-$
+0.$
+b0000 /$
+00$
+01$
+02$
+13$
+14$
+05$
+16$
+07$
+18$
+b0110 9$
+b00 :$
+1;$
+0<$
+0=$
+1>$
+0?$
+1@$
+0A$
+0B$
+1C$
+0D$
+0E$
+0F$
+1G$
+1H$
+b0110 I$
+b00 J$
+0K$
+b0110100 L$
+0M$
+1N$
+0O$
+0P$
+0Q$
+1R$
+0S$
+0T$
+1U$
+0V$
+0W$
+1X$
+1Y$
+0Z$
+0[$
+0\$
+b0000 ]$
+0^$
+0_$
+0`$
+1a$
+1b$
+0c$
+1d$
+0e$
+1f$
+b0110 g$
+b00 h$
+1i$
+0j$
+0k$
+1l$
+0m$
+1n$
+0o$
+0p$
+1q$
+0r$
+0s$
+0t$
+1u$
+1v$
+b0110 w$
+b00 x$
+0y$
+b0110100 z$
+0{$
+1|$
+0}$
+0!%
+0"%
+1#%
+0$%
+0%%
+1&%
+0'%
+0(%
+1)%
+0*%
+1+%
+0,%
+0-%
+b0000 .%
+0/%
+00%
+11%
+02%
+03%
+14%
+15%
+06%
+17%
+b0110 8%
+b00 9%
+0:%
+1;%
+0<%
+0=%
+1>%
+0?%
+0@%
+1A%
+0B%
+1C%
+0D%
+0E%
+1F%
+1G%
+b0110 H%
+b00 I%
+0J%
+b0110100 K%
+0L%
+1M%
+0N%
+0O%
+0P%
+1Q%
+0R%
+0S%
+1T%
+0U%
+0V%
+1W%
+0X%
+1Y%
+0Z%
+0[%
+b0000 \%
+0]%
+0^%
+1_%
+0`%
+0a%
+1b%
+1c%
+0d%
+1e%
+b0110 f%
+b00 g%
+0h%
+1i%
+0j%
+0k%
+1l%
+0m%
+0n%
+1o%
+0p%
+1q%
+0r%
+0s%
+1t%
+1u%
+b0110 v%
+b00 w%
+0x%
+b0110100 y%
+0z%
+1{%
+0|%
+0}%
+0!&
+1"&
+0#&
+0$&
+1%&
+0&&
+0'&
+1(&
+0)&
+1*&
+0+&
+0,&
+b0000 -&
+0.&
+0/&
+10&
+01&
+02&
+13&
+14&
+05&
+16&
+b0110 7&
+b00 8&
+09&
+1:&
+0;&
+0<&
+1=&
+0>&
+0?&
+1@&
+0A&
+1B&
+0C&
+0D&
+1E&
+1F&
+b0110 G&
+b00 H&
+0I&
+b0110100 J&
+0K&
+1L&
+0M&
+0N&
+0O&
+1P&
+0Q&
+0R&
+1S&
+0T&
+0U&
+1V&
+0W&
+1X&
+0Y&
+0Z&
+b0000 [&
+0\&
+0]&
+1^&
+0_&
+0`&
+1a&
+1b&
+0c&
+1d&
+b0110 e&
+b00 f&
+0g&
+1h&
+0i&
+0j&
+1k&
+0l&
+0m&
+1n&
+0o&
+1p&
+0q&
+0r&
+1s&
+1t&
+b0110 u&
+b00 v&
+0w&
+b0110100 x&
+0y&
+1z&
+0{&
+0|&
+0}&
+1!'
+0"'
+0#'
+1$'
+0%'
+0&'
+1''
+0('
+1)'
+0*'
+0+'
+b0000 ,'
+0-'
+0.'
+1/'
+00'
+01'
+12'
+13'
+04'
+15'
+b0110 6'
+b00 7'
+08'
+19'
+0:'
+0;'
+1<'
+0='
+0>'
+1?'
+0@'
+1A'
+0B'
+0C'
+1D'
+1E'
+b0110 F'
+b00 G'
+0H'
+b0110100 I'
+0J'
+1K'
+0L'
+0M'
+0N'
+1O'
+0P'
+0Q'
+1R'
+0S'
+0T'
+1U'
+0V'
+1W'
+0X'
+0Y'
+b0000 Z'
+0['
+0\'
+1]'
+0^'
+0_'
+1`'
+1a'
+0b'
+1c'
+b0110 d'
+b00 e'
+0f'
+1g'
+0h'
+0i'
+1j'
+0k'
+0l'
+1m'
+0n'
+1o'
+0p'
+0q'
+1r'
+1s'
+b0110 t'
+b00 u'
+0v'
+b0110100 w'
+0x'
+1y'
+0z'
+0{'
+0|'
+1}'
+0!(
+0"(
+1#(
+0$(
+0%(
+1&(
+0'(
+1((
+0)(
+0*(
+b0000 +(
+0,(
+0-(
+1.(
+0/(
+00(
+11(
+12(
+03(
+14(
+b0110 5(
+b00 6(
+07(
+18(
+09(
+0:(
+1;(
+0<(
+0=(
+1>(
+0?(
+1@(
+0A(
+0B(
+1C(
+1D(
+b0110 E(
+b00 F(
+0G(
+b0110100 H(
+0I(
+1J(
+0K(
+0L(
+0M(
+1N(
+0O(
+0P(
+1Q(
+0R(
+0S(
+1T(
+0U(
+1V(
+0W(
+0X(
+b0000 Y(
+0Z(
+0[(
+1\(
+0](
+0^(
+1_(
+1`(
+0a(
+1b(
+b0110 c(
+b00 d(
+0e(
+1f(
+0g(
+0h(
+1i(
+0j(
+0k(
+1l(
+0m(
+1n(
+0o(
+0p(
+1q(
+1r(
+b0110 s(
+b00 t(
+0u(
+b0110100 v(
+0w(
+1x(
+0y(
+0z(
+0{(
+1|(
+0}(
+0!)
+1")
+0#)
+0$)
+1%)
+0&)
+0')
+0()
+0))
+b0000 *)
+0+)
+0,)
+1-)
+1.)
+0/)
+00)
+01)
+02)
+03)
+b0000 4)
+b00 5)
+06)
+17)
+08)
+09)
+0:)
+1;)
+0<)
+0=)
+0>)
+0?)
+0@)
+0A)
+0B)
+0C)
+b0000 D)
+b00 E)
+0F)
+b0000000 G)
+0H)
+0I)
+0J)
+0K)
+0L)
+0M)
+0N)
+0O)
+0P)
+0Q)
+0R)
+0S)
+0T)
+0U)
+0V)
+0W)
+b0000 X)
+0Y)
+0Z)
+1[)
+1\)
+0])
+0^)
+0_)
+0`)
+0a)
+b0000 b)
+b00 c)
+0d)
+1e)
+0f)
+0g)
+0h)
+1i)
+0j)
+0k)
+0l)
+0m)
+0n)
+0o)
+0p)
+0q)
+b0000 r)
+b00 s)
+0t)
+b0000000 u)
+0v)
+0w)
+0x)
+0y)
+0z)
+0{)
+0|)
+0})
+0!*
+0"*
+0#*
+0$*
+0%*
+0&*
+0'*
+0(*
+b0000 )*
+0**
+0+*
+1,*
+1-*
+0.*
+0/*
+00*
+01*
+02*
+b0000 3*
+b00 4*
+05*
+16*
+07*
+08*
+09*
+1:*
+0;*
+0<*
+0=*
+0>*
+0?*
+0@*
+0A*
+0B*
+b0000 C*
+b00 D*
+0E*
+b0000000 F*
+0G*
+0H*
+0I*
+0J*
+0K*
+0L*
+0M*
+0N*
+0O*
+0P*
+0Q*
+0R*
+0S*
+0T*
+0U*
+0V*
+b0000 W*
+0X*
+0Y*
+1Z*
+1[*
+0\*
+0]*
+0^*
+0_*
+0`*
+b0000 a*
+b00 b*
+0c*
+1d*
+0e*
+0f*
+0g*
+1h*
+0i*
+0j*
+0k*
+0l*
+0m*
+0n*
+0o*
+0p*
+b0000 q*
+b00 r*
+0s*
+b0000000 t*
+0u*
+0v*
+0w*
+0x*
+0y*
+0z*
+0{*
+0|*
+0}*
+0!+
+0"+
+0#+
+0$+
+0%+
+0&+
+0'+
+b0000 (+
+0)+
+0*+
+1++
+1,+
+0-+
+0.+
+0/+
+00+
+01+
+b0000 2+
+b00 3+
+04+
+15+
+06+
+07+
+08+
+19+
+0:+
+0;+
+0<+
+0=+
+0>+
+0?+
+0@+
+0A+
+b0000 B+
+b00 C+
+0D+
+b0000000 E+
+0F+
+0G+
+0H+
+0I+
+0J+
+0K+
+0L+
+0M+
+0N+
+0O+
+0P+
+0Q+
+0R+
+0S+
+0T+
+0U+
+b0000 V+
+0W+
+0X+
+1Y+
+1Z+
+0[+
+0\+
+0]+
+0^+
+0_+
+b0000 `+
+b00 a+
+0b+
+1c+
+0d+
+0e+
+0f+
+1g+
+0h+
+0i+
+0j+
+0k+
+0l+
+0m+
+0n+
+0o+
+b0000 p+
+b00 q+
+0r+
+b0000000 s+
+0t+
+0u+
+0v+
+0w+
+0x+
+0y+
+0z+
+0{+
+0|+
+0}+
+0!,
+0",
+0#,
+0$,
+0%,
+0&,
+b0000 ',
+0(,
+0),
+1*,
+1+,
+0,,
+0-,
+0.,
+0/,
+00,
+b0000 1,
+b00 2,
+03,
+14,
+05,
+06,
+07,
+18,
+09,
+0:,
+0;,
+0<,
+0=,
+0>,
+0?,
+0@,
+b0000 A,
+b00 B,
+0C,
+b0000000 D,
+0E,
+0F,
+0G,
+0H,
+0I,
+0J,
+0K,
+0L,
+0M,
+0N,
+0O,
+0P,
+0Q,
+0R,
+0S,
+0T,
+b0000 U,
+0V,
+0W,
+1X,
+1Y,
+0Z,
+0[,
+0\,
+0],
+0^,
+b0000 _,
+b00 `,
+0a,
+1b,
+0c,
+0d,
+0e,
+1f,
+0g,
+0h,
+0i,
+0j,
+0k,
+0l,
+0m,
+0n,
+b0000 o,
+b00 p,
+0q,
+b0000000 r,
+0s,
+0t,
+0u,
+0v,
+0w,
+0x,
+0y,
+0z,
+0{,
+0|,
+0},
+0!-
+0"-
+0#-
+0$-
+0%-
+b0000 &-
+0'-
+0(-
+1)-
+1*-
+0+-
+0,-
+0--
+0.-
+0/-
+b0000 0-
+b00 1-
+02-
+13-
+04-
+05-
+06-
+17-
+08-
+09-
+0:-
+0;-
+0<-
+0=-
+0>-
+0?-
+b0000 @-
+b00 A-
+0B-
+b0000000 C-
+0D-
+0E-
+0F-
+0G-
+0H-
+0I-
+0J-
+0K-
+0L-
+0M-
+0N-
+0O-
+0P-
+0Q-
+0R-
+0S-
+b0000 T-
+0U-
+0V-
+1W-
+1X-
+0Y-
+0Z-
+0[-
+0\-
+0]-
+b0000 ^-
+b00 _-
+0`-
+1a-
+0b-
+0c-
+0d-
+1e-
+0f-
+0g-
+0h-
+0i-
+0j-
+0k-
+0l-
+0m-
+b0000 n-
+b00 o-
+0p-
+b0000000 q-
+0r-
+0s-
+0t-
+0u-
+0v-
+0w-
+0x-
+0y-
+0z-
+0{-
+0|-
+0}-
+0!.
+0".
+0#.
+0$.
+b0000 %.
+0&.
+0'.
+1(.
+1).
+0*.
+0+.
+0,.
+0-.
+0..
+b0000 /.
+b00 0.
+01.
+12.
+03.
+04.
+05.
+16.
+07.
+08.
+09.
+0:.
+0;.
+0<.
+0=.
+0>.
+b0000 ?.
+b00 @.
+0A.
+b0000000 B.
+0C.
+0D.
+0E.
+0F.
+0G.
+0H.
+0I.
+0J.
+0K.
+0L.
+0M.
+0N.
+0O.
+0P.
+0Q.
+0R.
+b0000 S.
+0T.
+0U.
+1V.
+1W.
+0X.
+0Y.
+0Z.
+0[.
+0\.
+b0000 ].
+b00 ^.
+0_.
+1`.
+0a.
+0b.
+0c.
+1d.
+0e.
+0f.
+0g.
+0h.
+0i.
+0j.
+0k.
+0l.
+b0000 m.
+b00 n.
+0o.
+b0000000 p.
+0q.
+0r.
+0s.
+0t.
+0u.
+0v.
+0w.
+0x.
+0y.
+0z.
+0{.
+0|.
+0}.
+0!/
+0"/
+0#/
+b0000 $/
+0%/
+0&/
+1'/
+1(/
+0)/
+0*/
+0+/
+0,/
+0-/
+b0000 ./
+b00 //
+00/
+11/
+02/
+03/
+04/
+15/
+06/
+07/
+08/
+09/
+0:/
+0;/
+0</
+0=/
+b0000 >/
+b00 ?/
+0@/
+b0000000 A/
+0B/
+0C/
+0D/
+0E/
+0F/
+0G/
+0H/
+0I/
+0J/
+0K/
+0L/
+0M/
+0N/
+0O/
+0P/
+0Q/
+b0000 R/
+0S/
+0T/
+1U/
+1V/
+0W/
+0X/
+0Y/
+0Z/
+0[/
+b0000 \/
+b00 ]/
+0^/
+1_/
+0`/
+0a/
+0b/
+1c/
+0d/
+0e/
+0f/
+0g/
+0h/
+0i/
+0j/
+0k/
+b0000 l/
+b00 m/
+0n/
+b0000000 o/
+0p/
+0q/
+0r/
+0s/
+0t/
+0u/
+0v/
+0w/
+0x/
+0y/
+0z/
+0{/
+0|/
+0}/
+0!0
+0"0
+b0000 #0
+0$0
+0%0
+1&0
+1'0
+0(0
+0)0
+0*0
+0+0
+0,0
+b0000 -0
+b00 .0
+0/0
+100
+010
+020
+030
+140
+050
+060
+070
+080
+090
+0:0
+0;0
+0<0
+b0000 =0
+b00 >0
+0?0
+b0000000 @0
+0A0
+0B0
+0C0
+0D0
+0E0
+0F0
+0G0
+0H0
+0I0
+0J0
+0K0
+0L0
+0M0
+0N0
+0O0
+0P0
+b0000 Q0
+0R0
+0S0
+0T0
+1U0
+1V0
+0W0
+0X0
+0Y0
+0Z0
+0[0
+0\0
+b0000 ]0
+b00 ^0
+0_0
+1`0
+0a0
+0b0
+0c0
+1d0
+0e0
+0f0
+0g0
+0h0
+0i0
+0j0
+0k0
+0l0
+b0000 m0
+b00 n0
+0o0
+b0000000 p0
+0q0
+0r0
+0s0
+0t0
+0u0
+0v0
+0w0
+0x0
+0y0
+0z0
+0{0
+0|0
+#1000000
+b00000000000000001111111111111111 #
+b0001 $
+b0000 %
+b0001 (
+b00000000000000001111111111111111 )
+b0000 *
+b0000 +
+b00000000000000001111111111111111 -
+b0001 2
+13
+b01 =
+b01 M
+1N
+b0110011 O
+1P
+0Q
+1S
+1V
+1W
+1Z
+0[
+b0001 `
+1a
+b01 k
+b01 {
+1|
+b0110011 }
+1!"
+0""
+1$"
+1'"
+1("
+1+"
+0,"
+b0001 1"
+12"
+b01 <"
+b01 L"
+1M"
+b0110011 N"
+1O"
+0P"
+1R"
+1U"
+1V"
+1Y"
+0Z"
+b0001 _"
+1`"
+b01 j"
+b01 z"
+1{"
+b0110011 |"
+1}"
+0!#
+1##
+1&#
+1'#
+1*#
+0+#
+b0001 0#
+11#
+b01 ;#
+b01 K#
+1L#
+b0110011 M#
+1N#
+0O#
+1Q#
+1T#
+1U#
+1X#
+0Y#
+b0001 ^#
+1_#
+b01 i#
+b01 y#
+1z#
+b0110011 {#
+1|#
+0}#
+1"$
+1%$
+1&$
+1)$
+0*$
+b0001 /$
+10$
+b01 :$
+b01 J$
+1K$
+b0110011 L$
+1M$
+0N$
+1P$
+1S$
+1T$
+1W$
+0X$
+b0001 ]$
+1^$
+b01 h$
+b01 x$
+1y$
+b0110011 z$
+1{$
+0|$
+1!%
+1$%
+1%%
+1(%
+0)%
+b0001 .%
+1/%
+b01 9%
+b01 I%
+1J%
+b0110011 K%
+1L%
+0M%
+1O%
+1R%
+1S%
+1V%
+0W%
+b0001 \%
+1]%
+b01 g%
+b01 w%
+1x%
+b0110011 y%
+1z%
+0{%
+1}%
+1#&
+1$&
+1'&
+0(&
+b0001 -&
+1.&
+b01 8&
+b01 H&
+1I&
+b0110011 J&
+1K&
+0L&
+1N&
+1Q&
+1R&
+1U&
+0V&
+b0001 [&
+1\&
+b01 f&
+b01 v&
+1w&
+b0110011 x&
+1y&
+0z&
+1|&
+1"'
+1#'
+1&'
+0''
+b0001 ,'
+1-'
+b01 7'
+b01 G'
+1H'
+b0110011 I'
+1J'
+0K'
+1M'
+1P'
+1Q'
+1T'
+0U'
+b0001 Z'
+1['
+b01 e'
+b01 u'
+1v'
+b0110011 w'
+1x'
+0y'
+1{'
+1!(
+1"(
+1%(
+0&(
+b0001 +(
+1,(
+b01 6(
+b01 F(
+1G(
+b0110011 H(
+1I(
+0J(
+1L(
+1O(
+1P(
+1S(
+0T(
+b0001 Y(
+1Z(
+b01 d(
+b01 t(
+1u(
+b0110011 v(
+1w(
+0x(
+1z(
+1}(
+1!)
+1$)
+0%)
+b0001 *)
+b01 5)
+b01 E)
+1N)
+1R)
+b0001 X)
+b01 c)
+b01 s)
+1|)
+1#*
+b0001 )*
+b01 4*
+b01 D*
+1M*
+1Q*
+b0001 W*
+b01 b*
+b01 r*
+1{*
+1"+
+b0001 (+
+b01 3+
+b01 C+
+1L+
+1P+
+b0001 V+
+b01 a+
+b01 q+
+1z+
+1!,
+b0001 ',
+b01 2,
+b01 B,
+1K,
+1O,
+b0001 U,
+b01 `,
+b01 p,
+1y,
+1},
+b0001 &-
+b01 1-
+b01 A-
+1J-
+1N-
+b0001 T-
+b01 _-
+b01 o-
+1x-
+1|-
+b0001 %.
+b01 0.
+b01 @.
+1I.
+1M.
+b0001 S.
+b01 ^.
+b01 n.
+1w.
+1{.
+b0001 $/
+b01 //
+b01 ?/
+1H/
+1L/
+b0001 R/
+b01 ]/
+b01 m/
+1v/
+1z/
+b0001 #0
+b01 .0
+b01 >0
+1G0
+1K0
+b0001 Q0
+b01 ^0
+b01 n0
+1w0
+1{0
+#2000000
+b11111111111111110000000000000000 #
+b1100 $
+b1010 %
+b1100 (
+b11111111111111110000000000000000 )
+b1010 *
+b1010 +
+b11111111111111111111111111111111 ,
+b11111111111111110000000000000000 -
+10
+11
+b1100 2
+03
+14
+07
+18
+0;
+b1010 <
+b00 =
+1@
+0A
+1D
+1E
+0F
+1G
+1H
+1I
+0J
+b1010 L
+b00 M
+0N
+b1010000 O
+0P
+0Q
+0S
+0V
+0W
+0X
+1Y
+0Z
+0[
+1_
+b1100 `
+0a
+1b
+0e
+1f
+0i
+b0010 j
+b00 k
+1n
+0o
+1r
+1s
+0t
+1u
+1v
+1w
+0x
+b0010 z
+b00 {
+0|
+b0010000 }
+0!"
+0""
+0$"
+0'"
+0("
+0)"
+0+"
+0,"
+10"
+b1100 1"
+02"
+13"
+06"
+17"
+0:"
+b0010 ;"
+b00 <"
+1?"
+0@"
+1C"
+1D"
+0E"
+1F"
+1G"
+1H"
+0I"
+b0010 K"
+b00 L"
+0M"
+b0010000 N"
+0O"
+0P"
+0R"
+0U"
+0V"
+0W"
+0Y"
+0Z"
+1^"
+b1100 _"
+0`"
+1a"
+0d"
+1e"
+0h"
+b0010 i"
+b00 j"
+1m"
+0n"
+1q"
+1r"
+0s"
+1t"
+1u"
+1v"
+0w"
+b0010 y"
+b00 z"
+0{"
+b0010000 |"
+0}"
+0!#
+0##
+0&#
+0'#
+0(#
+0*#
+0+#
+1/#
+b1100 0#
+01#
+12#
+05#
+16#
+09#
+b0010 :#
+b00 ;#
+1>#
+0?#
+1B#
+1C#
+0D#
+1E#
+1F#
+1G#
+0H#
+b0010 J#
+b00 K#
+0L#
+b0010000 M#
+0N#
+0O#
+0Q#
+0T#
+0U#
+0V#
+0X#
+0Y#
+1]#
+b1100 ^#
+0_#
+1`#
+0c#
+1d#
+0g#
+b0010 h#
+b00 i#
+1l#
+0m#
+1p#
+1q#
+0r#
+1s#
+1t#
+1u#
+0v#
+b0010 x#
+b00 y#
+0z#
+b0010000 {#
+0|#
+0}#
+0"$
+0%$
+0&$
+0'$
+0)$
+0*$
+1.$
+b1100 /$
+00$
+11$
+04$
+15$
+08$
+b0010 9$
+b00 :$
+1=$
+0>$
+1A$
+1B$
+0C$
+1D$
+1E$
+1F$
+0G$
+b0010 I$
+b00 J$
+0K$
+b0010000 L$
+0M$
+0N$
+0P$
+0S$
+0T$
+0U$
+0W$
+0X$
+1\$
+b1100 ]$
+0^$
+1_$
+0b$
+1c$
+0f$
+b0010 g$
+b00 h$
+1k$
+0l$
+1o$
+1p$
+0q$
+1r$
+1s$
+1t$
+0u$
+b0010 w$
+b00 x$
+0y$
+b0010000 z$
+0{$
+0|$
+0!%
+0$%
+0%%
+0&%
+0(%
+0)%
+1-%
+b1100 .%
+0/%
+10%
+13%
+04%
+07%
+b0010 8%
+b00 9%
+1<%
+1=%
+1@%
+0A%
+1B%
+0C%
+1D%
+1E%
+0F%
+b0010 H%
+b00 I%
+0J%
+b0010000 K%
+0L%
+0M%
+0O%
+0R%
+0S%
+0T%
+0V%
+0W%
+1[%
+b1100 \%
+0]%
+1^%
+1a%
+0b%
+0e%
+b0010 f%
+b00 g%
+1j%
+1k%
+1n%
+0o%
+1p%
+0q%
+1r%
+1s%
+0t%
+b0010 v%
+b00 w%
+0x%
+b0010000 y%
+0z%
+0{%
+0}%
+0#&
+0$&
+0%&
+0'&
+0(&
+1,&
+b1100 -&
+0.&
+1/&
+12&
+03&
+06&
+b0010 7&
+b00 8&
+1;&
+1<&
+1?&
+0@&
+1A&
+0B&
+1C&
+1D&
+0E&
+b0010 G&
+b00 H&
+0I&
+b0010000 J&
+0K&
+0L&
+0N&
+0Q&
+0R&
+0S&
+0U&
+0V&
+1Z&
+b1100 [&
+0\&
+1]&
+1`&
+0a&
+0d&
+b0010 e&
+b00 f&
+1i&
+1j&
+1m&
+0n&
+1o&
+0p&
+1q&
+1r&
+0s&
+b0010 u&
+b00 v&
+0w&
+b0010000 x&
+0y&
+0z&
+0|&
+0"'
+0#'
+0$'
+0&'
+0''
+1+'
+b1100 ,'
+0-'
+1.'
+11'
+02'
+05'
+b0010 6'
+b00 7'
+1:'
+1;'
+1>'
+0?'
+1@'
+0A'
+1B'
+1C'
+0D'
+b0010 F'
+b00 G'
+0H'
+b0010000 I'
+0J'
+0K'
+0M'
+0P'
+0Q'
+0R'
+0T'
+0U'
+1Y'
+b1100 Z'
+0['
+1\'
+1_'
+0`'
+0c'
+b0010 d'
+b00 e'
+1h'
+1i'
+1l'
+0m'
+1n'
+0o'
+1p'
+1q'
+0r'
+b0010 t'
+b00 u'
+0v'
+b0010000 w'
+0x'
+0y'
+0{'
+0!(
+0"(
+0#(
+0%(
+0&(
+1*(
+b1100 +(
+0,(
+1-(
+10(
+01(
+04(
+b0010 5(
+b00 6(
+19(
+1:(
+1=(
+0>(
+1?(
+0@(
+1A(
+1B(
+0C(
+b0010 E(
+b00 F(
+0G(
+b0010000 H(
+0I(
+0J(
+0L(
+0O(
+0P(
+0Q(
+0S(
+0T(
+1X(
+b1100 Y(
+0Z(
+1[(
+1^(
+0_(
+0b(
+b0010 c(
+b00 d(
+1g(
+1h(
+1k(
+0l(
+1m(
+0n(
+1o(
+1p(
+0q(
+b0010 s(
+b00 t(
+0u(
+b0010000 v(
+0w(
+0x(
+0z(
+0}(
+0!)
+0")
+0$)
+0%)
+1))
+b1100 *)
+1+)
+1,)
+1/)
+10)
+11)
+12)
+13)
+b0111 4)
+b00 5)
+18)
+19)
+1<)
+1=)
+1>)
+1?)
+1@)
+1A)
+1B)
+b0111 D)
+b00 E)
+1F)
+b0111111 G)
+1H)
+1I)
+1K)
+1L)
+1M)
+0N)
+1O)
+1P)
+0R)
+1S)
+1W)
+b1100 X)
+1Y)
+1Z)
+1])
+1^)
+1_)
+1`)
+1a)
+b0111 b)
+b00 c)
+1f)
+1g)
+1j)
+1k)
+1l)
+1m)
+1n)
+1o)
+1p)
+b0111 r)
+b00 s)
+1t)
+b0111111 u)
+1v)
+1w)
+1y)
+1z)
+1{)
+0|)
+1})
+1!*
+0#*
+1$*
+1(*
+b1100 )*
+1**
+1+*
+1.*
+1/*
+10*
+11*
+12*
+b0111 3*
+b00 4*
+17*
+18*
+1;*
+1<*
+1=*
+1>*
+1?*
+1@*
+1A*
+b0111 C*
+b00 D*
+1E*
+b0111111 F*
+1G*
+1H*
+1J*
+1K*
+1L*
+0M*
+1N*
+1O*
+0Q*
+1R*
+1V*
+b1100 W*
+1X*
+1Y*
+1\*
+1]*
+1^*
+1_*
+1`*
+b0111 a*
+b00 b*
+1e*
+1f*
+1i*
+1j*
+1k*
+1l*
+1m*
+1n*
+1o*
+b0111 q*
+b00 r*
+1s*
+b0111111 t*
+1u*
+1v*
+1x*
+1y*
+1z*
+0{*
+1|*
+1}*
+0"+
+1#+
+1'+
+b1100 (+
+1)+
+1*+
+1-+
+1.+
+1/+
+10+
+11+
+b0111 2+
+b00 3+
+16+
+17+
+1:+
+1;+
+1<+
+1=+
+1>+
+1?+
+1@+
+b0111 B+
+b00 C+
+1D+
+b0111111 E+
+1F+
+1G+
+1I+
+1J+
+1K+
+0L+
+1M+
+1N+
+0P+
+1Q+
+1U+
+b1100 V+
+1W+
+1X+
+1[+
+1\+
+1]+
+1^+
+1_+
+b0111 `+
+b00 a+
+1d+
+1e+
+1h+
+1i+
+1j+
+1k+
+1l+
+1m+
+1n+
+b0111 p+
+b00 q+
+1r+
+b0111111 s+
+1t+
+1u+
+1w+
+1x+
+1y+
+0z+
+1{+
+1|+
+0!,
+1",
+1&,
+b1100 ',
+1(,
+1),
+1,,
+1-,
+1.,
+1/,
+10,
+b0111 1,
+b00 2,
+15,
+16,
+19,
+1:,
+1;,
+1<,
+1=,
+1>,
+1?,
+b0111 A,
+b00 B,
+1C,
+b0111111 D,
+1E,
+1F,
+1H,
+1I,
+1J,
+0K,
+1L,
+1M,
+0O,
+1P,
+1T,
+b1100 U,
+1V,
+1W,
+1Z,
+1[,
+1\,
+1],
+1^,
+b0111 _,
+b00 `,
+1c,
+1d,
+1g,
+1h,
+1i,
+1j,
+1k,
+1l,
+1m,
+b0111 o,
+b00 p,
+1q,
+b0111111 r,
+1s,
+1t,
+1v,
+1w,
+1x,
+0y,
+1z,
+1{,
+0},
+1!-
+1%-
+b1100 &-
+1'-
+1(-
+1+-
+1,-
+1--
+1.-
+1/-
+b0111 0-
+b00 1-
+14-
+15-
+18-
+19-
+1:-
+1;-
+1<-
+1=-
+1>-
+b0111 @-
+b00 A-
+1B-
+b0111111 C-
+1D-
+1E-
+1G-
+1H-
+1I-
+0J-
+1K-
+1L-
+0N-
+1O-
+1S-
+b1100 T-
+1U-
+1V-
+1Y-
+1Z-
+1[-
+1\-
+1]-
+b0111 ^-
+b00 _-
+1b-
+1c-
+1f-
+1g-
+1h-
+1i-
+1j-
+1k-
+1l-
+b0111 n-
+b00 o-
+1p-
+b0111111 q-
+1r-
+1s-
+1u-
+1v-
+1w-
+0x-
+1y-
+1z-
+0|-
+1}-
+1$.
+b1100 %.
+1&.
+1'.
+1*.
+1+.
+1,.
+1-.
+1..
+b0111 /.
+b00 0.
+13.
+14.
+17.
+18.
+19.
+1:.
+1;.
+1<.
+1=.
+b0111 ?.
+b00 @.
+1A.
+b0111111 B.
+1C.
+1D.
+1F.
+1G.
+1H.
+0I.
+1J.
+1K.
+0M.
+1N.
+1R.
+b1100 S.
+1T.
+1U.
+1X.
+1Y.
+1Z.
+1[.
+1\.
+b0111 ].
+b00 ^.
+1a.
+1b.
+1e.
+1f.
+1g.
+1h.
+1i.
+1j.
+1k.
+b0111 m.
+b00 n.
+1o.
+b0111111 p.
+1q.
+1r.
+1t.
+1u.
+1v.
+0w.
+1x.
+1y.
+0{.
+1|.
+1#/
+b1100 $/
+1%/
+1&/
+1)/
+1*/
+1+/
+1,/
+1-/
+b0111 ./
+b00 //
+12/
+13/
+16/
+17/
+18/
+19/
+1:/
+1;/
+1</
+b0111 >/
+b00 ?/
+1@/
+b0111111 A/
+1B/
+1C/
+1E/
+1F/
+1G/
+0H/
+1I/
+1J/
+0L/
+1M/
+1Q/
+b1100 R/
+1S/
+1T/
+1W/
+1X/
+1Y/
+1Z/
+1[/
+b0111 \/
+b00 ]/
+1`/
+1a/
+1d/
+1e/
+1f/
+1g/
+1h/
+1i/
+1j/
+b0111 l/
+b00 m/
+1n/
+b0111111 o/
+1p/
+1q/
+1s/
+1t/
+1u/
+0v/
+1w/
+1x/
+0z/
+1{/
+1"0
+b1100 #0
+1$0
+1%0
+1(0
+1)0
+1*0
+1+0
+1,0
+b0111 -0
+b00 .0
+110
+120
+150
+160
+170
+180
+190
+1:0
+1;0
+b0111 =0
+b00 >0
+1?0
+b0111111 @0
+1A0
+1B0
+1D0
+1E0
+1F0
+0G0
+1H0
+1I0
+0K0
+1L0
+1P0
+b1100 Q0
+1R0
+1S0
+1T0
+1W0
+1X0
+1Y0
+1Z0
+1[0
+1\0
+b0111 ]0
+b00 ^0
+1a0
+1b0
+1e0
+1f0
+1g0
+1h0
+1i0
+1j0
+1k0
+b0111 m0
+b00 n0
+1o0
+b0111111 p0
+1q0
+1r0
+1t0
+1u0
+1v0
+0w0
+1x0
+1y0
+0{0
+1|0
+#3000000
+b00000000000000001111111111111111 #
+b0010 $
+b0000 %
+b0010 (
+b00000000000000001111111111111111 )
+b0000 *
+b0000 +
+b00000000000000000000000000000000 ,
+b00000000000000001111111111111111 -
+00
+01
+b0010 2
+13
+04
+17
+08
+1;
+b0110 <
+b10 =
+0@
+1A
+0D
+0E
+1F
+0G
+0H
+0I
+1J
+b0110 L
+b10 M
+1N
+b0110101 O
+1Q
+1R
+1S
+1X
+0Y
+1[
+0_
+b0010 `
+1a
+0b
+1e
+0f
+1i
+b0110 j
+b10 k
+0n
+1o
+0r
+0s
+1t
+0u
+0v
+0w
+1x
+b0110 z
+b10 {
+1|
+b0110101 }
+1""
+1#"
+1$"
+1)"
+1,"
+00"
+b0010 1"
+12"
+03"
+16"
+07"
+1:"
+b0110 ;"
+b10 <"
+0?"
+1@"
+0C"
+0D"
+1E"
+0F"
+0G"
+0H"
+1I"
+b0110 K"
+b10 L"
+1M"
+b0110101 N"
+1P"
+1Q"
+1R"
+1W"
+1Z"
+0^"
+b0010 _"
+1`"
+0a"
+1d"
+0e"
+1h"
+b0110 i"
+b10 j"
+0m"
+1n"
+0q"
+0r"
+1s"
+0t"
+0u"
+0v"
+1w"
+b0110 y"
+b10 z"
+1{"
+b0110101 |"
+1!#
+1"#
+1##
+1(#
+1+#
+0/#
+b0010 0#
+11#
+02#
+15#
+06#
+19#
+b0110 :#
+b10 ;#
+0>#
+1?#
+0B#
+0C#
+1D#
+0E#
+0F#
+0G#
+1H#
+b0110 J#
+b10 K#
+1L#
+b0110101 M#
+1O#
+1P#
+1Q#
+1V#
+1Y#
+0]#
+b0010 ^#
+1_#
+0`#
+1c#
+0d#
+1g#
+b0110 h#
+b10 i#
+0l#
+1m#
+0p#
+0q#
+1r#
+0s#
+0t#
+0u#
+1v#
+b0110 x#
+b10 y#
+1z#
+b0110101 {#
+1}#
+1!$
+1"$
+1'$
+1*$
+0.$
+b0010 /$
+10$
+01$
+14$
+05$
+18$
+b0110 9$
+b10 :$
+0=$
+1>$
+0A$
+0B$
+1C$
+0D$
+0E$
+0F$
+1G$
+b0110 I$
+b10 J$
+1K$
+b0110101 L$
+1N$
+1O$
+1P$
+1U$
+1X$
+0\$
+b0010 ]$
+1^$
+0_$
+1b$
+0c$
+1f$
+b0110 g$
+b10 h$
+0k$
+1l$
+0o$
+0p$
+1q$
+0r$
+0s$
+0t$
+1u$
+b0110 w$
+b10 x$
+1y$
+b0110101 z$
+1|$
+1}$
+1!%
+1&%
+1)%
+0-%
+b0010 .%
+1/%
+00%
+03%
+14%
+17%
+b0110 8%
+b10 9%
+0<%
+0=%
+0@%
+1A%
+0B%
+1C%
+0D%
+0E%
+1F%
+b0110 H%
+b10 I%
+1J%
+b0110101 K%
+1M%
+1N%
+1O%
+1T%
+1W%
+0[%
+b0010 \%
+1]%
+0^%
+0a%
+1b%
+1e%
+b0110 f%
+b10 g%
+0j%
+0k%
+0n%
+1o%
+0p%
+1q%
+0r%
+0s%
+1t%
+b0110 v%
+b10 w%
+1x%
+b0110101 y%
+1{%
+1|%
+1}%
+1%&
+1(&
+0,&
+b0010 -&
+1.&
+0/&
+02&
+13&
+16&
+b0110 7&
+b10 8&
+0;&
+0<&
+0?&
+1@&
+0A&
+1B&
+0C&
+0D&
+1E&
+b0110 G&
+b10 H&
+1I&
+b0110101 J&
+1L&
+1M&
+1N&
+1S&
+1V&
+0Z&
+b0010 [&
+1\&
+0]&
+0`&
+1a&
+1d&
+b0110 e&
+b10 f&
+0i&
+0j&
+0m&
+1n&
+0o&
+1p&
+0q&
+0r&
+1s&
+b0110 u&
+b10 v&
+1w&
+b0110101 x&
+1z&
+1{&
+1|&
+1$'
+1''
+0+'
+b0010 ,'
+1-'
+0.'
+01'
+12'
+15'
+b0110 6'
+b10 7'
+0:'
+0;'
+0>'
+1?'
+0@'
+1A'
+0B'
+0C'
+1D'
+b0110 F'
+b10 G'
+1H'
+b0110101 I'
+1K'
+1L'
+1M'
+1R'
+1U'
+0Y'
+b0010 Z'
+1['
+0\'
+0_'
+1`'
+1c'
+b0110 d'
+b10 e'
+0h'
+0i'
+0l'
+1m'
+0n'
+1o'
+0p'
+0q'
+1r'
+b0110 t'
+b10 u'
+1v'
+b0110101 w'
+1y'
+1z'
+1{'
+1#(
+1&(
+0*(
+b0010 +(
+1,(
+0-(
+00(
+11(
+14(
+b0110 5(
+b10 6(
+09(
+0:(
+0=(
+1>(
+0?(
+1@(
+0A(
+0B(
+1C(
+b0110 E(
+b10 F(
+1G(
+b0110101 H(
+1J(
+1K(
+1L(
+1Q(
+1T(
+0X(
+b0010 Y(
+1Z(
+0[(
+0^(
+1_(
+1b(
+b0110 c(
+b10 d(
+0g(
+0h(
+0k(
+1l(
+0m(
+1n(
+0o(
+0p(
+1q(
+b0110 s(
+b10 t(
+1u(
+b0110101 v(
+1x(
+1y(
+1z(
+1")
+1%)
+0))
+b0010 *)
+0+)
+0,)
+0/)
+00)
+01)
+02)
+03)
+b0000 4)
+b10 5)
+08)
+09)
+0<)
+0=)
+0>)
+0?)
+0@)
+0A)
+0B)
+b0000 D)
+b10 E)
+0F)
+b0000000 G)
+0H)
+0I)
+1J)
+0K)
+0L)
+0M)
+0O)
+0P)
+0S)
+0W)
+b0010 X)
+0Y)
+0Z)
+0])
+0^)
+0_)
+0`)
+0a)
+b0000 b)
+b10 c)
+0f)
+0g)
+0j)
+0k)
+0l)
+0m)
+0n)
+0o)
+0p)
+b0000 r)
+b10 s)
+0t)
+b0000000 u)
+0v)
+0w)
+1x)
+0y)
+0z)
+0{)
+0})
+0!*
+0$*
+0(*
+b0010 )*
+0**
+0+*
+0.*
+0/*
+00*
+01*
+02*
+b0000 3*
+b10 4*
+07*
+08*
+0;*
+0<*
+0=*
+0>*
+0?*
+0@*
+0A*
+b0000 C*
+b10 D*
+0E*
+b0000000 F*
+0G*
+0H*
+1I*
+0J*
+0K*
+0L*
+0N*
+0O*
+0R*
+0V*
+b0010 W*
+0X*
+0Y*
+0\*
+0]*
+0^*
+0_*
+0`*
+b0000 a*
+b10 b*
+0e*
+0f*
+0i*
+0j*
+0k*
+0l*
+0m*
+0n*
+0o*
+b0000 q*
+b10 r*
+0s*
+b0000000 t*
+0u*
+0v*
+1w*
+0x*
+0y*
+0z*
+0|*
+0}*
+0#+
+0'+
+b0010 (+
+0)+
+0*+
+0-+
+0.+
+0/+
+00+
+01+
+b0000 2+
+b10 3+
+06+
+07+
+0:+
+0;+
+0<+
+0=+
+0>+
+0?+
+0@+
+b0000 B+
+b10 C+
+0D+
+b0000000 E+
+0F+
+0G+
+1H+
+0I+
+0J+
+0K+
+0M+
+0N+
+0Q+
+0U+
+b0010 V+
+0W+
+0X+
+0[+
+0\+
+0]+
+0^+
+0_+
+b0000 `+
+b10 a+
+0d+
+0e+
+0h+
+0i+
+0j+
+0k+
+0l+
+0m+
+0n+
+b0000 p+
+b10 q+
+0r+
+b0000000 s+
+0t+
+0u+
+1v+
+0w+
+0x+
+0y+
+0{+
+0|+
+0",
+0&,
+b0010 ',
+0(,
+0),
+0,,
+0-,
+0.,
+0/,
+00,
+b0000 1,
+b10 2,
+05,
+06,
+09,
+0:,
+0;,
+0<,
+0=,
+0>,
+0?,
+b0000 A,
+b10 B,
+0C,
+b0000000 D,
+0E,
+0F,
+1G,
+0H,
+0I,
+0J,
+0L,
+0M,
+0P,
+0T,
+b0010 U,
+0V,
+0W,
+0Z,
+0[,
+0\,
+0],
+0^,
+b0000 _,
+b10 `,
+0c,
+0d,
+0g,
+0h,
+0i,
+0j,
+0k,
+0l,
+0m,
+b0000 o,
+b10 p,
+0q,
+b0000000 r,
+0s,
+0t,
+1u,
+0v,
+0w,
+0x,
+0z,
+0{,
+0!-
+0%-
+b0010 &-
+0'-
+0(-
+0+-
+0,-
+0--
+0.-
+0/-
+b0000 0-
+b10 1-
+04-
+05-
+08-
+09-
+0:-
+0;-
+0<-
+0=-
+0>-
+b0000 @-
+b10 A-
+0B-
+b0000000 C-
+0D-
+0E-
+1F-
+0G-
+0H-
+0I-
+0K-
+0L-
+0O-
+0S-
+b0010 T-
+0U-
+0V-
+0Y-
+0Z-
+0[-
+0\-
+0]-
+b0000 ^-
+b10 _-
+0b-
+0c-
+0f-
+0g-
+0h-
+0i-
+0j-
+0k-
+0l-
+b0000 n-
+b10 o-
+0p-
+b0000000 q-
+0r-
+0s-
+1t-
+0u-
+0v-
+0w-
+0y-
+0z-
+0}-
+0$.
+b0010 %.
+0&.
+0'.
+0*.
+0+.
+0,.
+0-.
+0..
+b0000 /.
+b10 0.
+03.
+04.
+07.
+08.
+09.
+0:.
+0;.
+0<.
+0=.
+b0000 ?.
+b10 @.
+0A.
+b0000000 B.
+0C.
+0D.
+1E.
+0F.
+0G.
+0H.
+0J.
+0K.
+0N.
+0R.
+b0010 S.
+0T.
+0U.
+0X.
+0Y.
+0Z.
+0[.
+0\.
+b0000 ].
+b10 ^.
+0a.
+0b.
+0e.
+0f.
+0g.
+0h.
+0i.
+0j.
+0k.
+b0000 m.
+b10 n.
+0o.
+b0000000 p.
+0q.
+0r.
+1s.
+0t.
+0u.
+0v.
+0x.
+0y.
+0|.
+0#/
+b0010 $/
+0%/
+0&/
+0)/
+0*/
+0+/
+0,/
+0-/
+b0000 ./
+b10 //
+02/
+03/
+06/
+07/
+08/
+09/
+0:/
+0;/
+0</
+b0000 >/
+b10 ?/
+0@/
+b0000000 A/
+0B/
+0C/
+1D/
+0E/
+0F/
+0G/
+0I/
+0J/
+0M/
+0Q/
+b0010 R/
+0S/
+0T/
+0W/
+0X/
+0Y/
+0Z/
+0[/
+b0000 \/
+b10 ]/
+0`/
+0a/
+0d/
+0e/
+0f/
+0g/
+0h/
+0i/
+0j/
+b0000 l/
+b10 m/
+0n/
+b0000000 o/
+0p/
+0q/
+1r/
+0s/
+0t/
+0u/
+0w/
+0x/
+0{/
+0"0
+b0010 #0
+0$0
+0%0
+0(0
+0)0
+0*0
+0+0
+0,0
+b0000 -0
+b10 .0
+010
+020
+050
+060
+070
+080
+090
+0:0
+0;0
+b0000 =0
+b10 >0
+0?0
+b0000000 @0
+0A0
+0B0
+1C0
+0D0
+0E0
+0F0
+0H0
+0I0
+0L0
+0P0
+b0010 Q0
+0R0
+0S0
+0T0
+0W0
+0X0
+0Y0
+0Z0
+0[0
+0\0
+b0000 ]0
+b10 ^0
+0a0
+0b0
+0e0
+0f0
+0g0
+0h0
+0i0
+0j0
+0k0
+b0000 m0
+b10 n0
+0o0
+b0000000 p0
+0q0
+0r0
+1s0
+0t0
+0u0
+0v0
+0x0
+0y0
+0|0
+#4000000
+b11111111111111110000000111111111 #
+b0110 $
+b0010 %
+b0110 (
+b11111111111111110000000111111111 )
+b0010 *
+b0010 +
+b00000000000000000000000011111111 ,
+b11111111111111110000000111111111 -
+10
+11
+b0110 2
+13
+14
+18
+1:
+1;
+b1111 <
+1D
+1E
+1G
+1H
+1I
+1J
+0K
+b1111 L
+1N
+b1111111 O
+1P
+1Q
+1S
+1T
+1W
+1X
+1Y
+1[
+1_
+b0110 `
+1a
+1b
+1f
+1h
+1i
+b0111 j
+1r
+1s
+1u
+1v
+1w
+1x
+0y
+b0111 z
+1|
+b0111111 }
+1!"
+1""
+1$"
+1%"
+1("
+1)"
+1,"
+10"
+b0110 1"
+13"
+17"
+19"
+b0111 ;"
+1C"
+1D"
+1F"
+1G"
+1H"
+0J"
+b0111 K"
+b0111111 N"
+1O"
+1S"
+1V"
+1^"
+b0110 _"
+1a"
+1e"
+1g"
+b0111 i"
+1q"
+1r"
+1t"
+1u"
+1v"
+0x"
+b0111 y"
+b0111111 |"
+1}"
+1$#
+1'#
+1/#
+b0110 0#
+12#
+16#
+18#
+b0111 :#
+1B#
+1C#
+1E#
+1F#
+1G#
+0I#
+b0111 J#
+b0111111 M#
+1N#
+1R#
+1U#
+1]#
+b0110 ^#
+1`#
+1d#
+1f#
+b0111 h#
+1p#
+1q#
+1s#
+1t#
+1u#
+0w#
+b0111 x#
+b0111111 {#
+1|#
+1#$
+1&$
+1.$
+b0110 /$
+11$
+15$
+17$
+b0111 9$
+1A$
+1B$
+1D$
+1E$
+1F$
+0H$
+b0111 I$
+b0111111 L$
+1M$
+1Q$
+1T$
+1\$
+b0110 ]$
+1_$
+1c$
+1e$
+b0111 g$
+1o$
+1p$
+1r$
+1s$
+1t$
+0v$
+b0111 w$
+b0111111 z$
+1{$
+1"%
+1%%
+1-%
+b0110 .%
+04%
+05%
+b0100 8%
+1@%
+0A%
+0C%
+1D%
+0G%
+b0100 H%
+b0100101 K%
+0Q%
+b0110 \%
+0]%
+0b%
+0c%
+0e%
+b0000 f%
+1n%
+0o%
+0q%
+0t%
+0u%
+b0000 v%
+0x%
+b0000000 y%
+0{%
+0}%
+0"&
+0%&
+0(&
+b0110 -&
+0.&
+03&
+04&
+06&
+b0000 7&
+1?&
+0@&
+0B&
+0E&
+0F&
+b0000 G&
+0I&
+b0000000 J&
+0L&
+0N&
+0P&
+0S&
+0V&
+b0110 [&
+0\&
+0a&
+0b&
+0d&
+b0000 e&
+1m&
+0n&
+0p&
+0s&
+0t&
+b0000 u&
+0w&
+b0000000 x&
+0z&
+0|&
+0!'
+0$'
+0''
+b0110 ,'
+0-'
+02'
+03'
+05'
+b0000 6'
+1>'
+0?'
+0A'
+0D'
+0E'
+b0000 F'
+0H'
+b0000000 I'
+0K'
+0M'
+0O'
+0R'
+0U'
+b0110 Z'
+0['
+0`'
+0a'
+0c'
+b0000 d'
+1l'
+0m'
+0o'
+0r'
+0s'
+b0000 t'
+0v'
+b0000000 w'
+0y'
+0{'
+0}'
+0#(
+0&(
+b0110 +(
+0,(
+01(
+02(
+04(
+b0000 5(
+1=(
+0>(
+0@(
+0C(
+0D(
+b0000 E(
+0G(
+b0000000 H(
+0J(
+0L(
+0N(
+0Q(
+0T(
+b0110 Y(
+0Z(
+0_(
+0`(
+0b(
+b0000 c(
+1k(
+0l(
+0n(
+0q(
+0r(
+b0000 s(
+0u(
+b0000000 v(
+0x(
+0z(
+0|(
+0")
+0%)
+b0110 *)
+1+)
+10)
+11)
+13)
+b0110 4)
+1<)
+1=)
+1?)
+1B)
+1C)
+b0110 D)
+1F)
+b0110101 G)
+1I)
+1K)
+1M)
+1P)
+1S)
+b0110 X)
+1Y)
+1^)
+1_)
+1a)
+b0110 b)
+1j)
+1k)
+1m)
+1p)
+1q)
+b0110 r)
+1t)
+b0110101 u)
+1w)
+1y)
+1{)
+1!*
+1$*
+b0110 )*
+1**
+1/*
+10*
+12*
+b0110 3*
+1;*
+1<*
+1>*
+1A*
+1B*
+b0110 C*
+1E*
+b0110101 F*
+1H*
+1J*
+1L*
+1O*
+1R*
+b0110 W*
+1X*
+1]*
+1^*
+1`*
+b0110 a*
+1i*
+1j*
+1l*
+1o*
+1p*
+b0110 q*
+1s*
+b0110101 t*
+1v*
+1x*
+1z*
+1}*
+1#+
+b0110 (+
+1)+
+1.+
+1/+
+11+
+b0110 2+
+1:+
+1;+
+1=+
+1@+
+1A+
+b0110 B+
+1D+
+b0110101 E+
+1G+
+1I+
+1K+
+1N+
+1Q+
+b0110 V+
+1W+
+1\+
+1]+
+1_+
+b0110 `+
+1h+
+1i+
+1k+
+1n+
+1o+
+b0110 p+
+1r+
+b0110101 s+
+1u+
+1w+
+1y+
+1|+
+1",
+b0110 ',
+1(,
+1-,
+1.,
+10,
+b0110 1,
+19,
+1:,
+1<,
+1?,
+1@,
+b0110 A,
+1C,
+b0110101 D,
+1F,
+1H,
+1J,
+1M,
+1P,
+b0110 U,
+1V,
+1[,
+1\,
+1^,
+b0110 _,
+1g,
+1h,
+1j,
+1m,
+1n,
+b0110 o,
+1q,
+b0110101 r,
+1t,
+1v,
+1x,
+1{,
+1!-
+b0110 &-
+1'-
+1,-
+1--
+1/-
+b0110 0-
+18-
+19-
+1;-
+1>-
+1?-
+b0110 @-
+1B-
+b0110101 C-
+1E-
+1G-
+1I-
+1L-
+1O-
+b0110 T-
+1U-
+1Z-
+1[-
+1]-
+b0110 ^-
+1f-
+1g-
+1i-
+1l-
+1m-
+b0110 n-
+1p-
+b0110101 q-
+1s-
+1u-
+1w-
+1z-
+1}-
+b0110 %.
+1&.
+1+.
+1,.
+1..
+b0110 /.
+17.
+18.
+1:.
+1=.
+1>.
+b0110 ?.
+1A.
+b0110101 B.
+1D.
+1F.
+1H.
+1K.
+1N.
+b0110 S.
+1T.
+1Y.
+1Z.
+1\.
+b0110 ].
+1e.
+1f.
+1h.
+1k.
+1l.
+b0110 m.
+1o.
+b0110101 p.
+1r.
+1t.
+1v.
+1y.
+1|.
+b0110 $/
+1%/
+1*/
+1+/
+1-/
+b0110 ./
+16/
+17/
+19/
+1</
+1=/
+b0110 >/
+1@/
+b0110101 A/
+1C/
+1E/
+1G/
+1J/
+1M/
+b0110 R/
+1S/
+1X/
+1Y/
+1[/
+b0110 \/
+1d/
+1e/
+1g/
+1j/
+1k/
+b0110 l/
+1n/
+b0110101 o/
+1q/
+1s/
+1u/
+1x/
+1{/
+b0110 #0
+1$0
+1)0
+1*0
+1,0
+b0110 -0
+150
+160
+180
+1;0
+1<0
+b0110 =0
+1?0
+b0110101 @0
+1B0
+1D0
+1F0
+1I0
+1L0
+b0110 Q0
+1R0
+1T0
+1X0
+1Y0
+1[0
+b0110 ]0
+1e0
+1f0
+1h0
+1k0
+1l0
+b0110 m0
+1o0
+b0110101 p0
+1r0
+1t0
+1v0
+1y0
+1|0
+#5000000
+b00000000000000000000000000000001 #
+b0111 $
+b0111 (
+b00000000000000000000000000000001 )
+b00000000000000000000000000000001 -
+b0111 2
+b11 =
+b11 M
+1V
+1Z
+b0111 `
+0a
+b11 k
+b11 {
+0|
+b0111010 }
+0""
+0$"
+1'"
+1+"
+0,"
+b0111 1"
+02"
+b11 <"
+b11 L"
+0M"
+b0111010 N"
+0P"
+0R"
+1U"
+1Y"
+0Z"
+b0111 _"
+0`"
+b11 j"
+b11 z"
+0{"
+b0111010 |"
+0!#
+0##
+1&#
+1*#
+0+#
+b0111 0#
+01#
+b11 ;#
+b11 K#
+0L#
+b0111010 M#
+0O#
+0Q#
+1T#
+1X#
+0Y#
+b0111 ^#
+0_#
+b11 i#
+b11 y#
+0z#
+b0111010 {#
+0}#
+0"$
+1%$
+1)$
+0*$
+b0111 /$
+00$
+b11 :$
+b11 J$
+0K$
+b0111010 L$
+0N$
+0P$
+1S$
+1W$
+0X$
+b0111 ]$
+0^$
+b11 h$
+b11 x$
+0y$
+b0111010 z$
+0|$
+0!%
+1$%
+1(%
+0)%
+b0111 .%
+0/%
+b11 9%
+b11 I%
+0J%
+b0100000 K%
+0M%
+0O%
+1R%
+1V%
+0W%
+b0111 \%
+b11 g%
+b11 w%
+1#&
+1'&
+b0111 -&
+b11 8&
+b11 H&
+1Q&
+1U&
+b0111 [&
+b11 f&
+b11 v&
+1"'
+1&'
+b0111 ,'
+b11 7'
+b11 G'
+1P'
+1T'
+b0111 Z'
+b11 e'
+b11 u'
+1!(
+1%(
+b0111 +(
+b11 6(
+b11 F(
+1O(
+1S(
+b0111 Y(
+b11 d(
+b11 t(
+1}(
+1$)
+b0111 *)
+0+)
+b11 5)
+b11 E)
+0F)
+b0110010 G)
+1H)
+0I)
+0K)
+1N)
+1O)
+1R)
+0S)
+b0111 X)
+0Y)
+b11 c)
+b11 s)
+0t)
+b0110010 u)
+1v)
+0w)
+0y)
+1|)
+1})
+1#*
+0$*
+b0111 )*
+0**
+b11 4*
+b11 D*
+0E*
+b0110010 F*
+1G*
+0H*
+0J*
+1M*
+1N*
+1Q*
+0R*
+b0111 W*
+0X*
+b11 b*
+b11 r*
+0s*
+b0110010 t*
+1u*
+0v*
+0x*
+1{*
+1|*
+1"+
+0#+
+b0111 (+
+0)+
+b11 3+
+b11 C+
+0D+
+b0110010 E+
+1F+
+0G+
+0I+
+1L+
+1M+
+1P+
+0Q+
+b0111 V+
+0W+
+b11 a+
+b11 q+
+0r+
+b0110010 s+
+1t+
+0u+
+0w+
+1z+
+1{+
+1!,
+0",
+b0111 ',
+0(,
+b11 2,
+b11 B,
+0C,
+b0110010 D,
+1E,
+0F,
+0H,
+1K,
+1L,
+1O,
+0P,
+b0111 U,
+0V,
+b11 `,
+b11 p,
+0q,
+b0110010 r,
+1s,
+0t,
+0v,
+1y,
+1z,
+1},
+0!-
+b0111 &-
+0'-
+b11 1-
+b11 A-
+0B-
+b0110010 C-
+1D-
+0E-
+0G-
+1J-
+1K-
+1N-
+0O-
+b0111 T-
+0U-
+b11 _-
+b11 o-
+0p-
+b0110010 q-
+1r-
+0s-
+0u-
+1x-
+1y-
+1|-
+0}-
+b0111 %.
+0&.
+b11 0.
+b11 @.
+0A.
+b0110010 B.
+1C.
+0D.
+0F.
+1I.
+1J.
+1M.
+0N.
+b0111 S.
+0T.
+b11 ^.
+b11 n.
+0o.
+b0110010 p.
+1q.
+0r.
+0t.
+1w.
+1x.
+1{.
+0|.
+b0111 $/
+0%/
+b11 //
+b11 ?/
+0@/
+b0110010 A/
+1B/
+0C/
+0E/
+1H/
+1I/
+1L/
+0M/
+b0111 R/
+0S/
+b11 ]/
+b11 m/
+0n/
+b0110010 o/
+1p/
+0q/
+0s/
+1v/
+1w/
+1z/
+0{/
+b0111 #0
+0$0
+b11 .0
+b11 >0
+0?0
+b0110010 @0
+1A0
+0B0
+0D0
+1G0
+1H0
+1K0
+0L0
+b0111 Q0
+0R0
+b11 ^0
+b11 n0
+0o0
+b0110010 p0
+1q0
+0r0
+0t0
+1w0
+1x0
+1{0
+0|0
+#6000000

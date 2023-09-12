@@ -1,0 +1,98 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Tue Jul  3 22:44:34 2018
+[*]
+[dumpfile] "/Users/edrom/Desktop/mips_one_cycle/result.vcd"
+[dumpfile_mtime] "Tue Jul  3 22:42:32 2018"
+[dumpfile_size] 1010365
+[savefile] "/Users/edrom/Desktop/mips_one_cycle/result.gtkw"
+[timestart] 0
+[size] 1885 604
+[pos] -1 -1
+*-22.353033 228000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] datapath_unit.
+[treeopen] datapath_unit.register_file_unit.gen_registers(19).
+[sst_width] 44
+[signals_width] 308
+[sst_expanded] 0
+[sst_vpaned_height] 158
+@c00024
++{t0} datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+@28
+(0)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(1)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(2)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(3)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(4)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(5)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(6)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(7)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(8)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(9)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(10)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(11)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(12)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(13)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(14)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(15)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(16)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(17)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(18)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(19)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(20)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(21)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(22)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(23)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(24)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(25)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(26)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(27)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(28)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(29)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(30)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+(31)datapath_unit.register_file_unit.gen_registers(8).reg_u.q[31:0]
+@1401200
+-group_end
+@24
++{t1} datapath_unit.register_file_unit.gen_registers(9).reg_u.q[31:0]
++{t2} datapath_unit.register_file_unit.gen_registers(10).reg_u.q[31:0]
++{s1} datapath_unit.register_file_unit.gen_registers(17).reg_u.q[31:0]
++{s2} datapath_unit.register_file_unit.gen_registers(18).reg_u.q[31:0]
++{s3} datapath_unit.register_file_unit.gen_registers(19).reg_u.q[31:0]
+@28
+clock
+reset
+@22
++{instr} instruction[31:0]
+@24
++{alu_a} datapath_unit.alu_unit.a[31:0]
++{alu_b} datapath_unit.alu_unit.b[31:0]
++{alu_res} datapath_unit.alu_unit.result[31:0]
+@22
++{alu_ctrl} datapath_unit.alu_unit.aluctl[3:0]
+@24
++{mem_data_in} mem_data_in[31:0]
++{mem_addr} address[31:0]
+@22
++{mem_data_out} mem_data_out[31:0]
+ctrlword[9:0]
+alu_opcode[3:0]
+@24
+data[31:0]
+@28
+finish_flag
+@24
+initial_addr[31:0]
+@28
+initial_complete
+@22
+initial_data[31:0]
+instr_addr[31:0]
+instruction_addr[31:0]
+mem_data_addr[31:0]
+@29
+memread
+@28
+memwrite
+[pattern_trace] 1
+[pattern_trace] 0
