@@ -5,7 +5,7 @@ vcd: analize
 	ghdl -r processor_testbench --vcd=result.vcd
 
 analize:
-	ghdl -a datapath/datapath_bib.vhdl mux/mux2x1n.vhd sign_ext/sign_ext.vhd sll2bit/sll2bit.vhd ripple_carry_adder/ripple_carry_adder.vhd ripple_carry_adder/full_adder.vhd alu_behavioral/alu-comp.vhdl alu_behavioral/ALUControl.vhdl register_file/register_file.vhd register_file/register.vhd register_file/decoder.vhd register_file/zero.vhd register_file/tri-state_buffer.vhd datapath/datapath.vhd ctrl_unit/ctrl_unit.vhdl data_memory_async/data_memory.vhdl instr_mem-structural/instruction_memory.vhdl pc/pc.vhd processor_testbench.vhd
+	ghdl -a datapath/datapath_bib.vhdl mux/mux2x1n.vhd sign_ext/sign_ext.vhd sll2bit/sll2bit.vhd ripple_carry_adder/ripple_carry_adder.vhd ripple_carry_adder/full_adder.vhd alu_behavioral/alu-comp.vhdl alu_behavioral/ALUControl.vhdl register_file/register_file.vhd register_file/register.vhd register_file/decoder.vhd register_file/zero.vhd register_file/tri-state_buffer.vhd datapath/datapath.vhd ctrl_unit/ctrl_unit.vhdl data_memory_async/data_memory.vhdl instr_mem-behavioral/instr_mem.vhdl pc/pc.vhd processor_testbench.vhd
 
 #datapath:
 #	ghdl -a datapath/datapath_bib.vhdl
