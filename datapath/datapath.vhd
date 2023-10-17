@@ -22,7 +22,7 @@ architecture structural of datapath is
   signal data_mux, imm32, rs, rt, alu_out, op_mux: std_logic_vector(31 downto 0);
   signal jump_mux_a, jump_mux_b, branch_instr_addr: std_logic_vector(31 downto 0);
   signal pc_plus_4, sll2: std_logic_vector(31 downto 0);
-  signal rs_addr, rt_addr, rd_addr, wr_addr: std_logic_vector(4 downto 0);
+  signal rs_addr, rt_addr, rd_addr, wr_addr, shamt: std_logic_vector(4 downto 0);
   signal imm16: std_logic_vector(15 downto 0);
   signal func: std_logic_vector(5 downto 0);
   signal zero_flag, instr_mux_sel: std_logic;
@@ -37,6 +37,7 @@ begin
   rs_addr <= instruction(25 downto 21);
   rt_addr <= instruction(20 downto 16);
   rd_addr <= instruction(15 downto 11);
+  shamt <= instruction(10 downto 6);
   imm16 <= instruction(15 downto 0);
 
   pc_adder_unit: ripple_carry_adder port map(
@@ -116,8 +117,8 @@ begin
     sel => ctrlword(3), --ALUSrc
     f => op_mux
   );
-
-  alu_unit: alu port map ( rs, op_mux, alu_opcode, alu_out, zero_flag );
+  
+  alu_unit: alu port map ( rs, op_mux, alu_opcode, shamt, alu_out, zero_flag );
 
   data_mux_unit: mux2x1n generic map(
     n => 32

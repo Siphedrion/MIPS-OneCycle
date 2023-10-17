@@ -2,10 +2,10 @@
 [*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
 [*] Tue Jul  3 22:44:34 2018
 [*]
-[dumpfile] "/Users/edrom/Desktop/mips_one_cycle/result.vcd"
+[dumpfile] "/home/siphedrion/Downloads/MIPS-OneCycle/result.vcd"
 [dumpfile_mtime] "Tue Jul  3 22:42:32 2018"
 [dumpfile_size] 1010365
-[savefile] "/Users/edrom/Desktop/mips_one_cycle/result.gtkw"
+[savefile] "/home/siphedrion/Downloads/MIPS-OneCycle/result.gtkw"
 [timestart] 0
 [size] 1885 604
 [pos] -1 -1

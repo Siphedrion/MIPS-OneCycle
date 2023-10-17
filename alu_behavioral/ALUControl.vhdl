@@ -16,6 +16,7 @@ begin
               "0000" when (ALUOp = "10") and (FuncCode = "100100") else
               "0001" when (ALUOp = "10") and (FuncCode = "100101") else
               "0111" when (ALUOp = "10") and (FuncCode = "101010") else
+              "0011" when (ALUOp = "10") and (FuncCode = "000000") else
               "1111";
 
 --    with ALUOp&FuncCode select

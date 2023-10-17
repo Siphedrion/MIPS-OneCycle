@@ -30,7 +30,7 @@ architecture structural of processor_testbench is
       alu_opcode: in std_logic_vector(3 downto 0);
       data_out, mem_addr: out std_logic_vector(31 downto 0);
       instr_addr: out std_logic_vector(31 downto 0);
-      clock, reset, bit26: in std_logic
+      clock, reset: in std_logic
     );
   end component datapath;
 
@@ -70,7 +70,6 @@ end component instr_mem;
     port (
       ALUOp : in std_logic_vector(1 downto 0);
       FuncCode : in std_logic_vector(5 downto 0);
-      op : in std_logic_vector(5 downto 0);
       ALUCtl : out std_logic_vector(3 downto 0)
     );
   end component ALUControl;
@@ -107,14 +106,12 @@ begin
     mem_addr => mem_data_addr,
     instr_addr => instr_addr,
     clock => clock,
-    reset => reset,
-    bit26 => instruction(26)
+    reset => reset
   );
 
   alu_control_unit: ALUControl port map(
     ALUOp => ctrlword(1 downto 0),
     FuncCode => instruction(5 downto 0),
-    op => instruction(31 downto 26),
     ALUCtl => alu_opcode
   );
 

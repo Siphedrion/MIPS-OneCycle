@@ -25,6 +25,7 @@ package datapath_bib is
     port (
         A, B   : in std_logic_vector(31 downto 0);
         ALUctl : in std_logic_vector(3 downto 0);
+        SHamt  : in std_logic_vector(4 downto 0);
         ALUout : out std_logic_vector(31 downto 0);
         Zero   : out std_logic
     );
